@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sports Adda</title>
+<link rel="shortcut icon" type="image/png" href="pic.jpg"/>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/fwslider.css" media="all">
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fwslider.js"></script>
+<!--end slider --><script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+	 <style>
+body{
+	background-color: black;
+     }
+table, th, td {
+    border: 1px solid white;
+	color:white;
+	font-size: 25px;
+	text-align: center;
+	padding:30px;
+}
+h2{
+	font-size:40px;
+	color:white;}
+
+</style>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+							<li><a href="http://localhost/sa/index.html">Home</a></li>
+						    	<li><a href="http://localhost/sa/news.php">News</a></li>
+						    	<li><a href="http://localhost/sa/fixtures.html">Fixtures</a></li>
+						    	<li><a href="http://localhost/sa/ranking.html">Ranking</a></li>
+						    	<li><a href="http://localhost/sa/players.html">Players</a></li>
+						    	<li><a href="http://localhost/sa/LiveScore.html">Live Scores</a></li>
+									<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>							
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+	    		  
+				          	
+						  <div class="login_buttons">
+							 <div class="login_button"><a href="1.php">Login</a></div>
+							 <div class="clear"></div>
+						  </div>
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		           <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	</div>
+	<h2 align="center">Football fixtures</h2>
+ 
+<table align=center style"width=70%">
+  <tr>
+    <th>Date</th>
+    <th>League Name</th>
+	<th>Teams Competing</th>
+	<th>Time</th>
+  </tr>
+  <tr>
+    <th>Oct 30</th>
+    <th>La Liga</th>
+	<th>Espanyol vs Real Betis <br> Las Palmas vs Reportivo la Coruza<br></th>
+	<th>01:30<br> 01:30<br></th>
+  </tr>
+  <tr>
+    <th>Nov 01- Dec 20</th>
+    <th>World Cup Qualifiers</th>
+	<th>International Teams</th>
+	<th>Every Night at 01:30</th>
+  </tr>
+  <tr>
+	<th>Nov 04</th>
+	<th>La Liga</th>
+	<th>Barcelona vs Las Palmas <br> Alaves vs Espanyol <br> Valencia vs Leganes <br></th>
+	<th>01:15 <br> 23:00 <br> 17:30<br></th>
+</tr>
+<tr>
+	<th>Nov 04</th>
+	<th>English Premier League</th>
+	<th> Burnley vs New Castle <br> Stoke vs Leicester <br></th>
+	<th>01:30 <br> 18:00 <br> 23:00 <br></th>
+</tr>
+<tr>
+	<th>Nov 05</th>
+	<th>La Liga</th>
+	<th>Levante vs Girona <br> Real Madrid vs Las Palmes <br> Real Sociedad vs Eibar <br></th>
+	<th>16:30 <br> 01:15 <br> 23:00 <br> </th>
+</tr>
+<tr>
+	<th>Nov 19</th>
+	<th>La Liga</th>
+	<th>Abilbao vs Villareal <br> Atletico vs Real Madrid <br> Leganes vs Barcelona <br> Espanyol vs Valencia <br></th>
+	<th> 20:30 <br> 20:30 <br> 20:30 <br> 20:30 <br></th>
+</tr>
+<tr>
+	<th>Nov 20</th>
+	<th>English Premier League</th>
+	<th>Brighton vs Stoke</th>
+	<th>01:30</th>
+</tr>
+<tr>
+	<th>Nov 24</th>
+	<th>English Premier League</th>
+	<th>West Ham vs Leicester</th>
+	<th>01:30</th>
+</tr>
+<tr>
+	<th>Nov 25</th>
+	<th>English Premier League</th>
+	<th>C Palace vs Stoke <br> Manchester Utd vs Brighton <br> New Castle vs Watford <br></th>
+	<th>20:30<br> 20:30 <br> 20:30<br> </th>
+</tr>
+<tr>
+	<th>Nov 26</th>
+	<th>English Premier League</th>
+	<th>Southampton vs Everton <br> Burnley vs Arsenal <br></th>
+	<th>19:00 <br> 19:30<br></th>
+</tr>
+<tr>
+	<th> Nov 26 </th>
+	<th>La Liga</th>
+	<th> Alaves vs Eiber <br> Leganes vs Celta Vigo <br> Espanyol vs Getafe <br> Real Madrid vs Malaga <br> Valencia vs Barcelona <br></th>
+	<th> 20:30 <br> 20:30 <br> 20:30 <br> 20:30 <br> 20:30<br> </th>
+</tr>
+</tr></table>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+						<li><a href="http://localhost/sa/career.html">Careers and internships</a></li>
+							<li><a href="http://localhost/sa/sponser.html">Sponserships</a></li>
+							<li><a href="http://localhost/sa/team.html">team</a></li>
+							<li><a href="http://localhost/sa/contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+</body>	
+</html>	

@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>Sports Adda</title>
+<link rel="shortcut icon" type="image/png" href="pic.jpg"/>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/fwslider.css" media="all">
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fwslider.js"></script>
+<!--end slider --><script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+							<li><a href="http://localhost/sa/index.html">Home</a></li>
+						    	<li><a href="http://localhost/sa/news.php">News</a></li>
+						    	<li><a href="http://localhost/sa/fixtures.html">Fixtures</a></li>
+						    	<li><a href="ranking.html">Ranking</a></li>
+						    	<li><a href="http://localhost/sa/players.html">Players</a></li>
+						    	<li><a href="http://localhost/sa/LiveScore.html">Live Scores</a></li>
+									<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>							
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+	    		  
+				          	
+						  <div class="login_buttons">
+							 <div class="login_button"><a href="1.php">Login</a></div>
+							 <div class="clear"></div>
+						  </div>
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		           <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	</div>
+	<div class="banner">
+	<!-- start slider -->
+       <div id="fwslider">
+         <div class="slider_container">
+            <div class="slide"> 
+                <!-- Slide image -->
+               <img src="images/ivsz.jpg" class="img-responsive" alt=""/>
+                <!-- /Slide image -->
+                <!-- Texts container -->
+                <div class="slide_content">
+                    
+                </div>
+               <!-- /Texts container -->
+            </div>
+            <!-- /Duplicate to create more slides -->
+            <div class="slide">
+               <img src="images/la liga.jpg" class="img-responsive" alt=""/>
+                <div class="slide_content">
+                    
+                </div>
+            </div>
+			<div class="slide">
+               <img src="images/australian.jpg" class="img-responsive" alt=""/>
+                <div class="slide_content">
+                   
+                </div>
+            </div>
+            <!--/slide -->
+        </div>
+		
+        <div class="timers"></div>
+        <div class="slidePrev"><span></span></div>
+        <div class="slideNext"><span></span></div>
+       </div>
+       <!--/slider -->
+      </div>
+	  <div class="main">
+		<div class="content-top">
+			<h2 >Welcome </h2>
+			<p>Choose your Favorite Sports</p>
+			<br>
+				<ul id="flexiselDemo3">
+				<li><a href="cricketnews.php"> <img src="images/cricket.jpg" /></li>
+				<li><a href="footballnews.php"><img src="images/football.jpg" /></li>
+				<li><a href="tennisfix.html"><img src="images/tennis.jpg" /></li>
+				<li><a href="golffix.html"><img src="images/golf.jpg" /></li>
+				<li><a href="foxnews.php"> <img src="images/badminton.jpg" /></li>
+				<li><a href="bbcnews.php"> <img src="images/hockey.jpg" /></li>
+				<li><a href="espnnews.php"> <img src="images/baseball.jpg" /></li>
+				</ul>
+		
+			<script type="text/javascript">
+		$(window).load(function() {
+			$("#flexiselDemo3").flexisel({
+				visibleItems: 5,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+		    	responsiveBreakpoints: { 
+		    		portrait: { 
+		    			changePoint:480,
+		    			visibleItems: 1
+		    		}, 
+		    		landscape: { 
+		    			changePoint:640,
+		    			visibleItems: 2
+		    		},
+		    		tablet: { 
+		    			changePoint:768,
+		    			visibleItems: 3
+		    		}
+		    	}
+		    });
+		    
+		});
+		</script>
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		</div>
+	</div>
+	<div class="content-bottom">
+		<div class="container">
+			<div class="row content_bottom-text">
+			  <div class="col-md-7">
+				<h3>Benefits of Sports</h3>
+				<p class="m_1">Playing a sport requires a lot of time and energy. Some people may think this would distract student-athletes from schoolwork. However, the opposite is true. Sports require memorization, repetition and learning — skillsets that are directly relevant to class work. Also, the determination and goal-setting skills a sport requires can be transferred to the classroom.  </p>
+				<p class="m_2">Watching your hard work pay off and achieving your goals develops self-confidence. Achieving a sport or fitness goal encourages you to achieve other goals you set. This is a rewarding and exciting learning process.</p>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<div class="features">
+		<div class="container">
+			<h3 class="m_3" >Trending Videos</h3><br>
+			  <div class="row">
+				<div class="col-md-3 top_box">
+				  <div class="view view-ninth"><a href="https://www.youtube.com/watch?v=yIPbwvm6QLs">
+                    <img src="images/viratinterview.jpg" class="img-responsive" alt=""/>
+                    <div class="mask mask-1"> </div>
+                    <div class="mask mask-2"> </div>
+                      </a> </div
+                  </div>
+                  <h4 class="m_4"><a href="https://www.youtube.com/watch?v=yIPbwvm6QLs">Virat Kohli Interivew</a></h4>
+                  <p class="m_5"></p>
+                </div>
+                <div class="col-md-3 top_box">
+					<div class="view view-ninth"><a href="https://www.youtube.com/watch?v=VOPVfLXK-bg">
+                    <img src="images/rafael nadal.jpg" class="img-responsive" alt=""/>
+                    <div class="mask mask-1"> </div>
+                    <div class="mask mask-2"> </div>
+                      </a> </div>
+                   <h4 class="m_4"><a href="https://www.youtube.com/watch?v=VOPVfLXK-bg">Rafael Nadal Shots</a></h4>
+                   <p class="m_5"></p>
+				</div>
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth"><a href="https://www.youtube.com/watch?v=i47I8ZGFEyA">
+                    <img src="images/messivsronaldo.jpg" class="img-responsive" alt=""/>
+                    <div class="mask mask-1"> </div>
+                    <div class="mask mask-2"> </div>
+                      </a> </div>
+                   <h4 class="m_4"><a href="https://www.youtube.com/watch?v=i47I8ZGFEyA">Messi vs Ronaldo</a></h4>
+                   <p class="m_5"></p>
+				</div>
+				<div class="col-md-3 top_box1">
+					<div class="view view-ninth"><a href="https://www.youtube.com/watch?v=OuAzIKni2yg">
+                    <img src="images/bestofgolf.jpg" class="img-responsive" alt=""/>
+                    <div class="mask mask-1"> </div>
+                    <div class="mask mask-2"> </div>
+                      
+                     </a> </div>
+                   <h4 class="m_4"><a href="https://www.youtube.com/watch?v=OuAzIKni2yg">Best of Golf </a></h4>
+                   <p class="m_5"></p>
+				</div>
+			</div>
+		 </div>
+	    </div>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+							<li><a href="http://localhost/sa/career.html">Careers and internships</a></li>
+							<li><a href="http://localhost/sa/sponser.html">Sponserships</a></li>
+							<li><a href="http://localhost/sa/team.html">team</a></li>
+							<li><a href="http://localhost/sa/contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+</body>	
+</html>

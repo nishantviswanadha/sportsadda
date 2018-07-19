@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sports Adda</title>
+<link rel="shortcut icon" type="image/png" href="pic.jpg"/>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/fwslider.css" media="all">
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fwslider.js"></script>
+<!--end slider --><script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+     <style>
+     h1{
+       font-size: 40px;
+       font-style: oblique;
+       font-family: monospace;
+       text-align: center;
+       text-decoration: underline;
+     }
+     h3{
+       font-size: 22px;
+       font-family: monospace;
+       text-decoration: underline;
+     }
+     h4{
+       font-size: 20px;
+       font-family: monospace;
+       text-decoration: underline;
+     }
+     p{
+       font-size: 16px;
+       font-family: monospace;
+     }
+     img{
+      height:300px;
+      width:300px;
+      border:1px;
+      display:block;
+      margin: auto;
+     }
+     body{
+       background-color: #A2B5CD;
+     }
+     </style>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+							<li><a href="http://localhost/sa/index.html">Home</a></li>
+						    	<li><a href="http://localhost/sa/news.php">News</a></li>
+						    	<li><a href="http://localhost/sa/fixtures.html">Fixtures</a></li>
+						    	<li><a href="http://localhost/sa/ranking.html">Ranking</a></li>
+						    	<li><a href="http://localhost/sa/players.html">Players</a></li>
+						    	<li><a href="http://localhost/sa/LiveScore.html">Live Scores</a></li>
+									<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+
+
+						  <div class="login_buttons">
+							 <div class="login_button"><a href="1.php">Login</a></div>
+							 <div class="clear"></div>
+						  </div>
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		           <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	</div>
+	<!-- YAHA SE SHURU-->
+
+  <h1>Novak Djokovic</h1>
+  <img src="images/330px-Novak_Djokovic_Eastbourne_tennis_2017-12-2_(35456277672)_(cropped).jpg">
+  <p>
+    Novak Djokovic (Serbian: Новак Ђоковић, Novak Đoković, pronounced [nôʋaːk d͡ʑôːkoʋit͡ɕ] (About this sound listen); born 22 May 1987) is a Serbian professional tennis player widely regarded as one of the greatest tennis players of all time.[a]
+    Djokovic has won 12 Grand Slam singles titles, the fourth most (equal with Roy Emerson) in history, and held the No. 1 spot in the ATP rankings for a total of 223 weeks. In majors, Djokovic has won six Australian Open titles (the only male player to win 3 consecutive Australian Open during open era), three Wimbledon titles, two US Open titles and one French Open title. In 2016, he became the eighth player in history to achieve the Career Grand Slam; by winning the 2016 French Open, Djokovic became the third man to hold all four major titles at once, the first since Rod Laver in 1969,[16] and the first ever to do so on three different surfaces.[17] Djokovic holds the highest match winning rate (82.8%) in the Open Era, as of July 2017.[18][19]
+    Djokovic has won an all-time record of 30 Masters 1000 series titles, tied with Rafael Nadal. Djokovic's records include breaking the single-season record with six masters titles in 2015, winning 31 consecutive ATP World Tour Masters 1000 series matches, playing in the finals at all nine ATP Masters 1000 tournaments (shared with Roger Federer and Nadal), and being the only player to win eight of the nine events (and at least twice).[20][21] Among other titles, he has won the ATP World Tour Finals five times and was on the Serbian team which won the 2010 Davis Cup. He also won the Bronze medal in men's singles at the 2008 Summer Olympics.
+    Djokovic is the first Serbian player to be ranked No. 1 by the ATP and the first male player representing Serbia to win a Grand Slam singles title. Djokovic has won numerous awards, including the 2012, 2015, and 2016 Laureus World Sports Award for Sportsman of the Year,[22] 2011 BBC Overseas Sports Personality of the Year, five-time ITF World Champion, and four-time ATP year-end number 1. He is a recipient of the Order of St. Sava, the Order of Karađorđe's Star, and the Order of the Republika Srpska.[23][24][25]
+  </p>
+  <br>
+    <h3>Early Life</h3>
+    <p>
+      Djokovic was born on 22 May 1987 in Belgrade, SR Serbia, Yugoslavia, to parents Srđan and Dijana (née Žagar). Novak's father is Montenegrin in origin and his mother is Croatian by background, with Novak considering himself to be Serbian.[26][27][28] His two younger brothers, Marko and Djordje, are also tennis players with professional aspirations.[29]
+      A resident in Monte Carlo, Djokovic was coached by former Slovak tennis player Marián Vajda from 2006 until Boris Becker took over the role of head coach in December 2013.[30] Djokovic is a self-described fan of languages, speaking Serbian, English, French, German, and Italian.[31][32]
+      He met his future wife, Jelena Ristić, in high school, and began dating her in 2005.[33] The two became engaged in September 2013,[34] and on 10 July 2014 the couple got married on Sveti Stefan in Montenegro,[35] while a church wedding was held in the same place, on 12 July 2014, in the Church of Saint Stephen (Serbian: Црква Светог Архиђакона Стефана) which belongs to Praskvica Monastery.[36] On 24 April 2014, Djokovic announced that he and Ristić were expecting their first child.[37] Their son Stefan was born in October 2014.[38] In April 2017, it was confirmed that they were expecting their second child.[39] Their daughter Tara was born in September 2017.[40]
+      Djokovic began playing tennis at the age of four.[41] In the summer of 1993, the six-year-old was spotted by Yugoslav tennis player Jelena Genčić[42] at Mount Kopaonik, where Djokovic's parents ran a fast-food parlour.[43] Upon seeing Djokovic play tennis, she stated: "This is the greatest talent I have seen since Monica Seles."[29]
+      Genčić worked with young Djokovic over the following six years before realizing that, due to his rapid development, going abroad in search of increased level of competition was the best option for his future. To that end, she contacted Nikola Pilić and in September 1999 the 12-year-old moved to the Pilić tennis academy in Oberschleißheim, Germany, spending four years there.[44] At the age of 14, he began his international career, winning European championships in singles, doubles, and team competition.[29]
+      Djokovic is known for his often humorous off-court impersonations of his fellow players, many of whom are his friends.[45] This became evident to the tennis world after his 2007 US Open quarterfinal win over Carlos Moyá, where he entertained the audience with impersonations of Rafael Nadal and Maria Sharapova. His impersonations have also become popular on YouTube.[45] Djokovic did an impression of John McEnroe after his fourth round match victory at the 2009 US Open, before playing a brief game with McEnroe, much to the delight of the audience.[46] Djokovic is a member of the "Champions for Peace" club, a group of famous elite athletes committed to serving peace in the world through sport, created by Peace and Sport, a Monaco-based international organization.[47]
+      Djokovic is a member of the Serbian Orthodox Church. On 28 April 2011, Patriarch Irinej of Serbia awarded Djokovic the Order of St. Sava I class, the highest decoration of the Serbian Orthodox Church, for his contributions to monasteries of the Serbian Orthodox Church in Kosovo and Metohija and charitable work in Serbia.[48] He is a keen fan of Serbian football club Red Star Belgrade,[49] Italian club A.C. Milan[50] and Portuguese club S.L. Benfica.[51] He is good friends with fellow Serbian tennis player Ana Ivanovic, whom he has known since the two were children growing up in Serbia, through Djokovic's uncle and Ivanovic's father.[52]
+  </p>
+  <br>
+  <h3>Tennis dometic career</h3>
+  <p>
+As a member of the Yugoslav national team, Djokovic reached the final of the 2001 Junior Davis Cup for players under 14, in which he lost his match in singles.[53] In juniors, Djokovic compiled a singles win/loss record of 40–11 (and 23–6 in doubles), reaching a combined junior world ranking of No. 24 in February 2004.[54] At the junior Grand Slam tournaments his best showing was at the Australian Open where he reached the semi-finals in 2004. He did not play at Wimbledon but he did play at the Jr French Open and Jr US Open.
+Djokovic turned professional in 2003.[55] At the beginning of his professional career, he mainly played in Futures and Challenger tournaments, winning three of each type from 2003 to 2005. His first tour-level tournament was Umag in 2004, where he lost to Filippo Volandri in the round of 32.[56]
+Djokovic made his first Grand Slam tournament appearance by qualifying for the 2005 Australian Open, where he was defeated by eventual champion Marat Safin in the first round in straight sets, after defeating future rival Stanislas Wawrinka in qualifying.[57][58] However, he went on to reach the third round of both Wimbledon and the US Open, coming back from two sets down to defeat Guillermo García-López in the former, and beating Gaël Monfils and Mario Ančić in the latter. Djokovic participated in four Masters events and qualified for two of them, his best performance coming in Paris, where he reached the third round and defeated fourth seed Mariano Puerta along the way.[59]
+Djokovic became one of the 40 best players in the world singles rankings after making his first quarterfinal appearance at a Grand Slam event, coming at the French Open, and also by reaching the fourth round at Wimbledon that year.[60]
+Three weeks after Wimbledon, Djokovic won his first ATP title at the Dutch Open in Amersfoort without losing a set, defeating Nicolás Massú in the final. He won his second career title at the Moselle Open in Metz, and moved into the top 20 for the first time in his career.[61] Djokovic also reached his first career Masters quarterfinal at Madrid during the indoor hardcourt season.[62]
+On 9 April 2006, Djokovic clinched a decisive Davis Cup win against Great Britain by defeating Greg Rusedski in four sets in the fourth match of the tie, giving Serbia and Montenegro an insurmountable 3–1 lead in their best-of-five series, thus keeping the country in the Group One Euro/African Zone of Davis Cup. Afterwards, Djokovic briefly considered moving from Serbia to play for Great Britain.[63] Following this match-up, the British media spoke of Djokovic's camp negotiating with the Lawn Tennis Association about changing his international loyalty by joining British tennis ranks.[63] The nineteen-year-old Djokovic, who was ranked sixty-third in the world at the time, mostly dismissed the story at first by saying that the talks were not serious, describing them as "the British being very kind to us after the Davis Cup."[64] However, more than three years later, in October 2009, Djokovic confirmed that the talks between his family and the LTA throughout April and May 2006 were indeed serious:
+
+  </p>
+  <p>
+    Djokovic began 2007 by defeating Australian Chris Guccione in the final of the tournament in Adelaide, before losing in the fourth round of the Australian Open to eventual champion Roger Federer[66] in straight sets. His performances at the Masters Series events in Indian Wells, and Key Biscayne, where he was the runner-up and champion respectively, pushed him into the world's top 10.[61] Djokovic lost the Indian Wells final to Rafael Nadal, but defeated Nadal in Key Biscayne in the quarterfinals before defeating Guillermo Cañas for the title in the finals.[67]
+    After winning his first Master Series title, Djokovic returned to Serbia to help his country enter the Davis Cup World Group[68] in a match against Georgia. Djokovic won a point by defeating Georgia's George Chanturia.[69] Later, he played in the Monte Carlo Masters, where he was defeated by David Ferrer in the third round, and at the Estoril Open, where he defeated Richard Gasquet in the final.[70] Djokovic then reached the quarterfinals of both the Internazionali d'Italia in Rome, where he lost to Nadal, and the Hamburg Masters, where he was defeated by Carlos Moyà. At the French Open, Djokovic reached his first major semi-final, losing to eventual champion Nadal.[71]
+    At Wimbledon, Djokovic won a five-hour quarterfinal against Marcos Baghdatis. In his semi-final match against Nadal, he was forced to retire with elbow problems in the third set, after winning the first and losing the second set.[72]
+  </p>
+  <p>
+    Djokovic's next tournament was the Rogers Cup in Montreal, and he defeated world No. 3 Andy Roddick in the quarterfinals, world No. 2 Nadal in the semi-finals, and world No. 1 Federer in the final. This was the first time a player had defeated the top three ranked players in one tournament since Boris Becker in 1994.[73] Djokovic was also only the second player, after Tomáš Berdych, to have defeated both Federer and Nadal since they became the top two players in the world. After this tournament, Björn Borg stated that Djokovic "is definitely a contender to win a Grand Slam (tournament)."[74] The following week at the Cincinnati Masters, Djokovic lost in the second round to Moyà in straight sets. Nevertheless, he went on to reach the final of the US Open, where he had five set points in the first set and two in the second set, but lost them all before losing the match in straight sets to the top-seeded Federer.[75]
+    Djokovic won his fifth title of the year at the BA-CA TennisTrophy in Vienna, defeating Stanislas Wawrinka in the final. His next tournament was the Madrid Masters, where he lost to David Nalbandian in the semi-finals. Djokovic, assured of finishing the year as world No. 3, qualified for the year-ending Tennis Masters Cup, but did not advance beyond the round robin matches. He received the Golden Badge award for the best athlete in Serbia, and the Olympic Committee of Serbia declared him the best athlete in the country.[76]
+    Djokovic played a key role in the 2007 play-off win over Australia by winning all his matches and helping promote the Serbia Davis Cup team to the 2008 World Group.[77] In Serbia's tie against Russia in Moscow in early 2008, Djokovic was sidelined due to influenza and was forced to miss his first singles match. He returned to win his doubles match, teaming with Nenad Zimonjić, before being forced to retire during his singles match with Nikolay Davydenko.[78]
+  </p>
+  <br>
+  <h3> International career</h3>
+  <h4> Early years</h4>
+  <p>
+    On grass, Djokovic once again played Nadal, this time in the Artois Championships final in Queen's Club, where he lost in two sets. Djokovic entered Wimbledon seeded third but lost in the second round to Safin, ending a streak of five consecutive majors where he had reached at least the semi-finals.[85]
+    Djokovic then failed to defend his 2007 singles title at the Rogers Cup in Toronto – he was eliminated in the quarterfinals by eighth-seeded Andy Murray. The following week at the Cincinnati Masters, Djokovic advanced to the final, beating Nadal. In the final, he again lost to Murray in straight sets. His next tournament was the 2008 Summer Olympics, his first Olympics. He and Nenad Zimonjić, seeded second in men's doubles, were eliminated in the first round by the Czech pairing of Martin Damm and Pavel Vízner. Seeded third in singles, Djokovic lost in the semi-finals to Nadal. Djokovic then defeated James Blake, the loser of the other semi-final, in the bronze medal match.[86]
+    After the Olympics, Djokovic entered the US Open seeded third, where he defeated Roddick in the quarterfinals. To a smattering of boos in a post-match interview, Djokovic criticized Roddick for accusing him of making excessive use of the trainer during matches.[87] His run at the US Open ended in the semi-finals when he lost to Federer in four sets, in a rematch of the previous year's final. Djokovic went on to play four tournaments after the US Open. At the Thailand Open, he lost to Tsonga in straight sets. In November, Djokovic was the second seed at the year-ending Tennis Masters Cup in Shanghai. In his first round-robin match, he defeated Argentine Juan Martín del Potro in straight sets. He then beat Nikolay Davydenko in three sets, before losing his final round-robin match against Tsonga. Djokovic qualified for the semi-finals, where he defeated Gilles Simon. In the final, Djokovic defeated Davydenko to win his first Tennis Masters Cup title.[88]
+  </p>
+  <p>
+    Djokovic started the year at the Brisbane International, where he was upset by Ernests Gulbis in the first round.[89] At the Sydney International, he lost to Jarkko Nieminen in the semi-finals.[90] As defending champion at the Australian Open, Djokovic retired from his quarterfinal match with former world No. 1 Andy Roddick.
+    After losing in the semi-finals of the Open 13 tournament in Marseille to Tsonga, Djokovic won the singles title at the Dubai Tennis Championships, defeating Ferrer to claim his twelfth career title.[91] The following week, Djokovic was the defending champion at the BNP Paribas Open in Indian Wells, but lost to Roddick in the quarterfinals. At the Sony Ericsson Open in Key Biscayne, Djokovic beat Federer in the semi-finals, before losing to Murray in the final.[92]
+    Djokovic reached the final of the next ATP World Tour Masters 1000 event, the Monte-Carlo Rolex Masters on clay, losing to Nadal in the final. At the Internazionali BNL d'Italia in Rome, Djokovic failed to defend the title he had won the previous year, losing in the final.[93]
+    Djokovic was the top seed at his hometown tournament, the Serbia Open in Belgrade. He defeated first-time finalist Łukasz Kubot to win his second title of the year.[94] As third seed at the Madrid Open, Djokovic advanced to the semi-finals without dropping a set. There, he faced Nadal and lost despite holding three match points. The match, at 4 hours and 3 minutes, was the longest three-set singles match on the ATP World Tour in the Open Era.[95] At the French Open, he lost in the third round to German Philipp Kohlschreiber.
+    Djokovic began his grass court season at the Gerry Weber Open where, after the withdrawal of Federer, he competed as the top seed. He advanced to the final, where he lost to German Tommy Haas.[96] Djokovic lost to Haas in the quarterfinals of Wimbledon.[97]
+    During the US Open Series, Djokovic made the quarterfinals of the Rogers Cup in Montreal before losing to Roddick. At the Cincinnati Masters, Djokovic defeated third-ranked Nadal in the semi-finals before losing in the final to world No. 1 Federer.[98] At the US Open, Djokovic made the semi-finals, having dropped only two sets, defeating Ivan Ljubičić, 15th seed Radek Štěpánek and 10th seed Fernando Verdasco before being defeated by Federer.[99]
+    At the China Open in Beijing, Djokovic defeated Victor Hănescu, Viktor Troicki, Verdasco, and Robin Söderling en route to the final, where he defeated Marin Čilić in straight sets to win his third title of the year.[100] Djokovic then lost in the semi-finals of the inaugural Shanghai ATP Masters 1000 to Davydenko. At the Swiss Indoors in Basel, Djokovic defeated Jan Hernych to make it to the quarterfinals,[101] where he recovered from a deficit to defeat Wawrinka before going on to win his semi-final against Štěpánek. In the final, he defeated home favourite and three-time defending champion Federer to win his fourth title of the year.[102] At the last Masters 1000 event of the year at the BNP Paribas Masters in Paris, Djokovic won his first Masters 1000 title of the year by defeating Nadal in the semi-finals,[103] before outlasting Gaël Monfils in the final.[104]
+    Coming into the year-ending ATP World Tour Finals in London as the defending champion, Djokovic defeated Davydenko in his first round-robin match[105] before losing his second match to Söderling.[106] Despite victory over Nadal in his third round-robin match, Djokovic failed to make the semi-finals.[107]
+    Djokovic ended the year as the world No. 3 for the third consecutive year, having played 97 matches, the most of any player on the ATP World Tour, with a 78–19 win-loss record. In addition to leading the ATP World Tour in match wins, he reached a career best ten finals, winning five titles. Djokovic also played a large role in promoting Serbia to the 2009 World Group. On 6–8 March 2010, he played a key role in bringing Serbia to the World Group quarterfinals for the first time in its independent history, winning both singles matches in the home tie against the United States against Sam Querrey and John Isner.[108]
+  </p>
+  <h4> Davis Cup title and US Open runner-up</h4>
+  <p>
+    Djokovic started his year by playing in the AAMI Classic, an exhibition event. In his first match, he defeated Haas before losing to Fernando Verdasco in his second.[109] At the 2010 Australian Open, Djokovic lost a five-setter to Tsonga in the quarterfinals.[110] Despite the loss, he attained a career-high ranking of world No. 2 and went on to reach the semi-finals of the ABN AMRO World Tennis Tournament in Rotterdam, where he lost to Youzhny. At the Dubai Tennis Championships, Djokovic reached the final, this time defeating Youzhny to win his first title of the year.[111]
+    Djokovic then took part in Serbia's Davis Cup tie against the United States on clay in Belgrade and helped his country reach its first quarterfinal in the Davis Cup with a 3–2 victory, defeating Querrey and Isner. At the Indian Wells Masters, Djokovic lost in the fourth round to Ljubičić. At the Miami Masters, he lost in his opening match to Olivier Rochus. Djokovic then announced that he had ceased working with Todd Martin as his coach.[112]
+    In his first clay-court tournament of the year at the Monte-Carlo Rolex Masters, top-seeded Djokovic reached the semi-finals with wins over Wawrinka and David Nalbandian before losing to Verdasco. Djokovic again lost to Verdasco at the Internazionali BNL d'Italia in Rome, this time in the quarterfinals.[113] As the defending champion at his hometown event, the Serbia Open in Belgrade, he withdrew in the quarterfinals while trailing Filip Krajinović.[114]
+  </p>
+  <p>
+    As the third seed at the US Open, Djokovic came very close to losing in his opening round against Viktor Troicki in extreme heat. He then defeated Philipp Petzschner, James Blake, Mardy Fish, and number 17 seed Gaël Monfils, all in straight sets, to reach the US Open semi-finals for the fourth consecutive year. There, he defeated Federer in five sets after saving two match points with forehand winners while serving to stay in the match at 4–5 in the 5th set. It was Djokovic's first victory over Federer at the US Open in four attempts, and his first victory over Federer in a Major since the 2008 Australian Open. Djokovic went on to lose to Nadal in the final, a match that saw Nadal complete his career Grand Slam.[119]
+  After helping Serbia defeat the Czech Republic 3–2 to make it to the Davis Cup final, Djokovic competed at the China Open as the top seed and defending champion. He won the title for the second successive year, after defeating Maoxin Gong, Mardy Fish (walkover), Gilles Simon, and John Isner en route to the final. Djokovic then defeated Ferrer in the final. At the Shanghai Masters, Djokovic made a semi-final appearance, losing to Federer. Djokovic played his final tournament of the year at the ATP World Tour Finals in London. Djokovic was placed in Group A along with Nadal, Berdych, and Roddick. Djokovic won his first round-robin match against Berdych. He next lost to Nadal. He defeated Roddick in his final round-robin match and advanced to the semi-finals, where he lost to Federer in two sets.[120]
+  Djokovic went on to win his two singles rubbers in Serbia's Davis Cup finals victory over France. This started a long unbeaten run that went on into 2011. Djokovic finished the year ranked world No. 3, his fourth successive finish at this position. He was awarded the title "Serbian Sportsman of the year" by the Olympic Committee of Serbia[121] and "Serbian Athlete of the year" by DSL Sport.[122]
+  Serbia progressed to the Davis Cup final, following the victories over Croatia (4–1) and the Czech Republic (3–2). Serbia came from 1–2 down to defeat France in the final tie 3–2 in Belgrade to win the nation's first Davis Cup Championship. In the final, Djokovic scored two singles points for Serbia, defeating Gilles Simon and Gaël Monfils.[123] He was the backbone of the Serbian squad, going 7–0 in singles rubbers to lead the nation to the title, although the honour of winning the deciding rubber in the final went to compatriot Viktor Troicki.
+  </p>
+  <br>
+  <h3> Three majors, five masters and ascent to No. 1</h3>
+  <p>
+    Djokovic won ten tournaments in 2011,[43] including Grand Slam tournament victories at the Australian Open, Wimbledon and the US Open.[43] Djokovic also captured a record-breaking five ATP World Tour Masters 1000 titles,[43][124] and set a new record for the most prize money won in a single season on the ATP World Tour ($12 million).[43] His level dropped at season's end beginning with a back injury and ended with a poor showing at the ATP World Tour Finals. Djokovic finished the season with a 70–6 record and a year-end ranking of world No. 1.
+  Pete Sampras declared Djokovic's 2011 season as the best he has ever seen in his lifetime, calling it "one of the best achievements in all of sports."[125] Boris Becker called Djokovic's season "one of the very best years in tennis of all time", adding that it "may not be the best statistically, but he's beaten Federer, he's beaten Nadal, he's beaten everybody that came around to challenge him in the biggest tournaments in the world."[126] Rafael Nadal, who lost to Djokovic in six finals on three different surfaces, described Djokovic's performances as "probably the highest level of tennis that I ever saw."[127] Djokovic was named 2011 ITF World Champion.[128] He also received the Golden Bagel Award by winning 13 sets with the result of 6–0 during the season.[129]
+  In the semi-finals of the 2011 Davis Cup, Djokovic played a crucial rubber match for Serbia against Juan Martín del Potro of Argentina, where he retired while trailing, after reaggravating a back injury sustained during the US Open tournament. This secured Argentina's place in the final. This marked Djokovic's third loss of his 2011 season, and his second retirement.[130]
+  Djokovic was beaten by John Isner in the semi-finals at Indian Wells. He successfully defended his title in Miami. In the Monte Carlo final, he lost in straight sets to Nadal, unable to prevent Nadal from earning his record-breaking eighth consecutive title there. Djokovic also lost in straight sets to Nadal at the Rome Masters 2012 final.[134]
+Djokovic reached his maiden French Open final in 2012 by defeating Federer,[135] reaching the finals of all four majors consecutively. Djokovic had the chance to become the first man since Rod Laver in 1969 to hold all four major titles at once, having won last year's Wimbledon and US Open titles as well as this year's Australian Open, but was beaten by Nadal in the final in four sets.[136][137] Following the French Open, Djokovic was unsuccessful in defending his Wimbledon title from the prior year, losing to Roger Federer in four sets in the semi-finals.
+At the 2012 Summer Olympics in London, Djokovic was chosen as the flag bearer for Serbia.[138] On 2 August 2012, Djokovic defeated French fifth seed Tsonga and advanced to the semi-finals of Olympics, where he was beaten by Murray in straight sets.[139] In the bronze medal match he lost to Del Potro, finishing 4th.[140] He successively defended his Rogers Cup title, dropping just a single set to Tommy Haas. Following the Rogers Cup, Djokovic would make the finals of the Cincinnati Masters but lost to Roger Federer in straight sets.[141]
+At the US Open on 9 September, Djokovic reached his third consecutive final at Flushing Meadows by beating fourth-seeded David Ferrer in a match suspended a day earlier due to rain.[142][143] He then lost the final to Murray in five sets.[144] Djokovic went on to defend his China Open title, defeating Tsonga in straight sets.[145] The following week he won the Shanghai Masters by defeating Murray in the final.[146] With Federer's withdrawal from the Paris Masters, Djokovic was guaranteed to regain his world No. 1 ranking.[147] On 12 November 2012, Djokovic won the 2012 ATP World Tour Finals by defeating Federer in the final.[148][149][150] Because of his achievements in the 2012 season, Djokovic was named the 2012 ITF World Champion in men's singles by the International Tennis Federation.[151]
+  </p>
+
+
+
+	<!--YAHA SE END-->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+						<li><a href="http://localhost/sa/career.html">Careers and internships</a></li>
+							<li><a href="http://localhost/sa/sponser.html">Sponserships</a></li>
+							<li><a href="http://localhost/sa/team.html">team</a></li>
+							<li><a href="http://localhost/sa/contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+				
+				</div>
+
+			</div>
+		</div>
+</body>
+</html>

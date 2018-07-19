@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sports Adda</title>
+<link rel="shortcut icon" type="image/png" href="pic.jpg"/>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/fwslider.css" media="all">
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fwslider.js"></script>
+<!--end slider --><script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+     <style>
+     h1{
+       font-size: 40px;
+       font-style: oblique;
+       font-family: monospace;
+       text-align: center;
+       text-decoration: underline;
+     }
+     h3{
+       font-size: 22px;
+       font-family: monospace;
+       text-decoration: underline;
+     }
+     h4{
+       font-size: 20px;
+       font-family: monospace;
+       text-decoration: underline;
+     }
+     p{
+       font-size: 16px;
+       font-family: monospace;
+     }
+     img{
+      height:300px;
+      width:300px;
+      border:1px;
+      display:block;
+      margin: auto;
+     }
+     body{
+       background-color: #A2B5CD;
+     }
+     </style>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+							<li><a href="http://localhost/sa/index.html">Home</a></li>
+						    	<li><a href="http://localhost/sa/news.php">News</a></li>
+						    	<li><a href="http://localhost/sa/fixtures.html">Fixtures</a></li>
+						    	<li><a href="http://localhost/sa/ranking.html">Ranking</a></li>
+						    	<li><a href="http://localhost/sa/players.html">Players</a></li>
+						    	<li><a href="http://localhost/sa/LiveScore.html">Live Scores</a></li>
+									<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+
+
+						  <div class="login_buttons">
+							 <div class="login_button"><a href="1.php">Login</a></div>
+							 <div class="clear"></div>
+						  </div>
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		           <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	</div>
+	<!-- YAHA SE SHURU-->
+
+  <h1>Roger Federer</h1>
+  <img src="images/Roger_Federer_(26_June_2009,_Wimbledon)_3_cropped.jpg">
+  <p>
+    Roger Federer (German pronunciation: [ˈrɔdʒər ˈfeːdərər];[citation needed] born 8 August 1981) is a Swiss professional tennis player who is currently ranked world No. 2 in men's singles tennis by the Association of Tennis Professionals (ATP).[3][4] Federer has won 19 Grand Slam singles titles, the most in history for a male tennis player and has held the world No. 1 spot in the ATP rankings for a record total of 302 weeks, including a record 237 consecutive weeks. After turning professional in 1998, he was continuously ranked in the top ten from October 2002 to November 2016. He has since rejoined the top ten, from February 2017.
+  In majors, he has won a record eight Wimbledon titles, five Australian Open titles, a record five consecutive US Open titles and one French Open title. He is among eight men to have captured a career Grand Slam and has reached a record 29 men's singles Grand Slam finals, including ten in a row from the 2005 Wimbledon Championships to the 2007 US Open. Given these achievements, many players and analysts consider Federer the greatest tennis player of all time.[a]
+  Among Federer's other ATP tournament records include winning six ATP World Tour Finals, 19 ATP Tour 500 tournaments and playing in the finals at all nine ATP Masters 1000 tournaments. He has also won an Olympic gold medal in doubles with his compatriot Stan Wawrinka at the 2008 Summer Olympic Games and an Olympic silver medal in singles at the 2012 Summer Olympic Games. Representing Switzerland, Federer was a part of the 2001 winning Hopman Cup team and the 2014 winning Davis Cup team.
+  Federer has been named Swiss Sports Personality of the Year a record six times. In 2007, he won the ESPY Award for Best International Athlete and he has won the Best Male Tennis Player award a record seven times. He was named ATP Player of the Year five times, was named ITF World Champion five time, and won the Laureus World Sportsman of the Year for a record four consecutive years. He was named three times the BBC Overseas Sports Personality of the Year. In 2017, ESPN ranked him fourth in its most famous athletes list, first among tennis players.[19]
+  </p>
+  <br>
+    <h3>Early Life</h3>
+    <p>
+    Federer was born in Basel, Switzerland.[20] His father, Robert Federer, is Swiss-German, from Berneck, in the Canton of St. Gallen ; and his mother, Lynette Federer (née Durand), from Kempton Park, Gauteng. Federer's mother is descended from Dutch and French Huguenots.[21][22] Federer has one sibling, his older sister Diana,[23] who is the mother of a set of twins.[24] Since his mother is South African, he holds both Swiss and South African citizenship.[25] He grew up in nearby Birsfelden, Riehen, and then Münchenstein, close to the French and German borders and speaks Swiss German, Standard German, English and French fluently, as well as functional Italian and Swedish, Swiss German being his native language.[20][22][26][27] Federer served as a ball boy at his hometown Basel tournament, the Swiss Indoors, in 1992 and 1993.[22][28]
+    Like all male Swiss citizens, Federer was subject to compulsory military service in the Swiss Armed Forces. However, in 2003 he was ruled "unsuitable" and was subsequently not required to fulfill his military obligation.[29] Instead, he served in the civil protection force and was required to pay 3% of his taxable income as an alternative.[30] He grew up supporting F.C. Basel and the Swiss National Football Team.[31] Federer also credits his hand-eye coordination to the wide range of sports he played as a child, including badminton and basketball.[32]
+    Federer is married to former Women's Tennis Association player Mirka Federer. He met her while both were competing for Switzerland in the 2000 Sydney Olympics. Miroslava Vavrinec retired from the tour in 2002 because of a foot injury 7 years before she married Federer.[33] They were married at Wenkenhof Villa in Riehen near Basel on 11 April 2009, surrounded by a small group of close friends and family.[34] In July 2009, Mirka gave birth to identical twin girls, Myla Rose and Charlene Riva.[35] The Federers had another pair of identical twins in 2014, this time boys whom they named Leo and Lennart (known as Lenny).[36][37]
+  </p>
+  <br>
+  <h3> Youth And dometic career</h3>
+  <p>
+    In 2003, he established the Roger Federer Foundation to help disadvantaged children and to promote their access to education and sports.[38][39][40] Since May 2004, citing his close ties with South Africa, including that being where his mother was raised, he began supporting the South Africa-Swiss charity IMBEWU which helps children better connect to sports and social and health awareness. Later, In 2005, Federer visited South Africa to meet the children that had benefited from his support.[41][42][43] In 2005, he auctioned his racquet from his US Open championship to aid victims of Hurricane Katrina.[44] At the 2005 Pacific Life Open in Indian Wells, Federer arranged an exhibition involving several top players from the ATP and WTA tour called Rally for Relief. The proceeds went to the victims of the tsunami caused by the 2004 Indian Ocean earthquake. In December 2006 he visited Tamil Nadu, one of the areas in India most affected by the tsunami.[45] He was appointed a Goodwill Ambassador by UNICEF in April 2006 and has appeared in UNICEF public messages to raise public awareness of AIDS.[46][47]
+  In response to the 2010 Haiti earthquake, Federer arranged a collaboration with fellow top tennis players for a special charity event during the 2010 Australian Open called 'Hit for Haiti', in which proceeds went to Haiti earthquake victims.[48][49] He participated in a follow-up charity exhibition during the 2010 Indian Wells Masters which raised $1 million.[50] The Nadal vs Federer "Match for Africa" in 2010 in Zurich and Madrid raised more than $4 million for the Roger Federer Foundation and Fundación Rafa Nadal. In January 2011, Federer took part in an exhibition, Rally for Relief, to raise money for the victims of the Queensland floods.[51][52] In 2014, the "Match for Africa 2" between Federer and Stan Wawrinka, again in Zurich, raised £850,000 for education projects in southern Africa.
+  </p>
+  <p>
+    Federer entered the top 100 ranking for the first time on 20 September 1999 and started at the 1999 Marseille Open defeating the reigning champion of the 1998 French Open, Spaniard Carlos Moya. His first final came at the Marseille Open in 2000, where he lost to fellow Swiss Marc Rosset.[56] Federer won the 2001 Hopman Cup representing Switzerland, along with Martina Hingis.[57][58][59] The duo defeated the American pair of Monica Seles and Jan-Michael Gambill in the finals. Federer's first singles win was at the 2001 Milan Indoor tournament, where he defeated Julien Boutter in the final.[56] Although he won his first title already in 1999 on the Challenger tour, winning the doubles event in Segovia, Spain with Dutchman Sander Groen, the final was played on Federer's 18th birthday. In 2001, Federer made his first Grand Slam quarterfinal at the French Open, and at Wimbledon that same year defeated four-time defending champion Pete Sampras to reach the quarterfinals. The most prestigious event final he reached during this period was the 2002 Miami Masters event, where he lost to Andre Agassi on hard court.[60]
+  Federer won his first Master Series event at the 2002 Hamburg Masters on clay, over Marat Safin; the victory put him in top 10 for the first time.[60] Federer made 10 singles finals between 1998 and 2002, of which he won four and lost six.[56][60][61][62][63] He also made six finals in doubles. Of note are Federer and partner Max Mirnyi's defeat in the final of the Indian Wells Masters in 2002, and their victory in the same year in the final of the Rotterdam 500 series event. Federer had won the latter a year earlier with partner Jonas Björkman.[60][63] He finished 2001 with an ATP ranking of #13, and 2002 was the first year he was ranked within the top 10, finishing at #6.
+  </p>
+  <p>
+    In 2005, Federer failed to reach the finals of the first two Grand Slam tournaments, losing the Australian Open semifinal to eventual champion Safin after holding match points, and the French Open semifinal to eventual champion Rafael Nadal.[67] However, Federer quickly reestablished his dominance on grass, winning the Wimbledon Championships over Andy Roddick. At the US Open, Federer defeated Andre Agassi in the latter's last major final.[67]
+  Federer also took four ATP Masters Series 1000 wins: Indian Wells, Miami and Cincinnati on hard court, and Hamburg on clay.[67] The win in Miami was particularly noteworthy as it was the first final contested between Federer and Rafael Nadal in what would become one of the greatest rivalries in tennis history. Federer recovered from two sets and a break down to take the final in five sets. Furthermore, Federer won two ATP 500 series events at Rotterdam and Dubai.[67] Federer lost the year-end championships to David Nalbandian in five sets while playing through a foot injury that sidelined him for almost the rest of the season after September.[citation needed] He maintained his position as world #1 for the entire season.[67]
+  The season was statistically one of the most dominant in the Open Era. He won 11 singles titles, which tied his 2004 season as the most in over two decades, his 81 match victories were the most since Pete Sampras in 1993, and his record of 81–4 (95.2%) remains the second-best winning percentage in the Open Era behind only John McEnroe in 1984.
+  </p>
+  <br>
+  <h3> International career</h3>
+  <h4> Early years</h4>
+  <p>
+    In 2007, Federer reached all four Grand Slam singles finals, winning three of them again. He won the Australian Open without dropping a set, beating Fernando González in the final. This made him the first man in the 21st century to accomplish the feat, as Björn Borg at the 1980 French Open was the last to win a Grand Slam tournament without the loss of a set.[70] Federer had entered the year on a huge winning streak and after capturing his fourth Dubai crown Federer's winning streak stood at 41 matches, the longest of his career and only five shy of the record. Federer entered Indian Wells as the three-time defending champion, but his streak would end in controversy. He was defeated by an Argentine, Guillermo Cañas, who had failed a drug test for illegal doping.[71]
+    This surprising first-round defeat marked the first time since August 2006 he suffered defeat, a period spanning over seven months.
+  During the clay season, Federer's victory in the Hamburg Masters final was particularly impressive, as it snapped Rafael Nadal's 81-match winning streak on clay, an Open-Era record. Federer turned the match around from a set down to sweep 12 of the final 14 games, including a final set bagel. At the French Open, some anticipated that Federer could become the first man in almost 40 years to hold all four majors simultaneously, having just resoundingly defeated young rival Nadal on clay entering the tournament. However, in a repeat of the previous year Federer played a tough four-set final against Nadal, but was undone by going 1/17 on break-point chances.[72]
+  At Wimbledon, Federer entered the tournament not only as the four-time defending champion, but also riding a 48-match winning streak on grass. Once again, he defeated Rafael Nadal for a second consecutive year in the final, this time in a thrilling five-set encounter that many analysts hailed as the greatest Wimbledon final since 1980. Victory at Wimbledon equaled him with Björn Borg for the record of five consecutive championships at the All England Club.
+  Federer reached the final in Montreal before playing a young and relatively unknown Serbian named Novak Djokovic. Djokovic proved his potential by stunning the world #1 in a final-set tiebreaker upset. Federer rebounded in Cincinnati to capture his fifth title of the year. Federer entered the US Open as the three-time defending champion and faced Djokovic in the final. This time, Federer prevailed in a close straight-set match. Victory in New York moved him ahead of Laver and Borg for third on the all-time list of major championship victories. Throughout the tournament, the American press labelled him Darth Federer for his all-black attire (which included tuxedo-striped shorts) and the tournament played The Imperial March from Star Wars when he was announced onto the court for each of his matches.[73] He would close out the year with victories in Basel and the Year End Championships in Shanghai.
+  He finished the season as the year-end world #1 for the fourth year in a row, demonstrating his dominance, and during these four years he won 11 Grand Slam singles titles. After his phenomenal triple Grand Slam season yet again, Federer became the only player in history to win three Majors in a year for three years (2004, 2006, 2007).[74][75][76][77] It was the third consecutive season that Federer would hold the world #1 ranking for all 52 weeks of the year.
+  </p>
+  <p>
+    Federer's success in 2008 was severely hampered by a lingering bout of mononucleosis, which he suffered from during the first half of the year.[78] At the end of the year, he would suffer a back injury that would prove to be recurring throughout his career.
+  In 2008, Federer captured one Grand Slam, a singles title at the US Open over Briton Andy Murray.[79] Federer was defeated by Nadal in two Grand Slam finals, at the French Open, and at Wimbledon, when he was going for six straight wins to break Björn Borg's record.[79] At the Australian Open, Federer lost in the semifinals to eventual winner Djokovic, which ended his record of 10 consecutive finals.[79] Later in the year, it was found Federer had been suffering from mononucleosis at the start of the year, particularly during the Australian Open. He lost twice in Masters Series 1000 finals on clay to Nadal, at Monte Carlo and Hamburg.[79] However, Federer captured three titles in 250-level events at Estoril, Halle, and Basel.
+  At the Olympic Games, Federer and Stan Wawrinka won the gold medal in doubles, after beating the Bryan brothers American team in the semifinals and the Swedish duo of Simon Aspelin and Thomas Johansson in the final[80] However, Federer could only reach the quarterfinals in the singles draw, knocked out by then world #8 James Blake.[81] He ended the year as world #2.
+  </p>
+  <h4> Rise trough the ranks</h4>
+  <p>
+    The year started with a win at the Australian Open,[86] where he defeated Andy Murray in the final and extended the Grand Slam singles record to sixteen titles, matching Andre Agassi's record of four Australian Open titles.[79] Since Wimbledon 2005 Federer had made the finals of 18 out of 19 Grand Slam tournaments, an extraordinary period of sustained excellence unparalleled in the Open Era. This tournament, however, would mark the end of his utter dominance at the majors.
+  At the French Open, Federer won his 700th tour match and 150th tour match on clay.[86][87] However, he failed to reach a Grand Slam semifinal for the first time since the 2004 French Open, losing to Söderling in the last 8 and relinquishing his #1 ranking,[86] having been just one week away from equalling Pete Sampras's record of 286 weeks as world #1. In a huge upset at Wimbledon, Federer lost in the last 8 again to Tomáš Berdych and fell to #3 in the rankings for the first time in 6 years and 8 months.[86][88][89]
+  Towards the middle of July, Federer hired Pete Sampras' old coach Paul Annacone on a trial basis to put his tennis game and career back on track.[90] At the 2010 US Open, Federer reached the semifinals, where he lost a heart-breaking five-set match to Novak Djokovic after holding two match points.[86] Federer made it to four Masters 1000 finals, prevailing at the Cincinnati Masters against Mardy Fish.[91]
+  Federer finished the year in strong form, winning indoor titles at the Stockholm Open, Swiss Indoors, and the ATP World Tour Finals in London, which brought his tally to 66 career titles. Federer won the year-end championships in London by beating rival Rafael Nadal for his fifth title at the event. He showed much of his old form, beating all contenders except Nadal in straight sets. It remains the only tournament in his career where Federer defeated all fellow members of the Big Four. Since Wimbledon 2010, Federer had a win-loss record of 34–4. Federer finished in the top two for the eighth consecutive season.
+  </p>
+  <p>
+    The 2011 season, although great by most players' standards, was a lean year for Federer. He was defeated in straight sets in the semifinals of the 2011 Australian Open by eventual champion Novak Djokovic,[92] marking the first time since July 2003 that he did not hold any of the four major titles. In the French Open semifinals, Federer ended Djokovic's undefeated streak of 43 consecutive wins with a four-set victory. However, Federer then lost in the final to Rafael Nadal. At Wimbledon, Federer advanced to his 29th consecutive Grand Slam quarterfinal, but lost to Jo-Wilfried Tsonga. It marked the first time in his career that he had lost a Grand Slam tournament match after winning the first two sets.
+  At the US Open, Federer lost a much-anticipated semifinal match to Novak Djokovic, after squandering two match points in the fifth set, which repeated his previous year's result against Djokovic and added a second loss from two sets up in Grand Slam tournament play to his record. With that loss, it meant that Federer did not win at least one of the four majors in 2011, the first time since 2002. Later that month in September 2011, in a South African poll, Federer was voted the second most trusted and respected person in the world, next to Nelson Mandela.[93][94]
+  Federer finished the season on a high note by yet again dominating the indoor season, winning his last three tournaments of the year at the Swiss Indoors, Paris Masters, and ATP World Tour Finals. He ended a 10-month title drought by winning the Swiss Indoors for the fifth time, defeating Kei Nishikori. Federer followed this up with his first Paris Masters title, where he became the first player to reach all nine Masters 1000 finals. In the final of the 2011 ATP World Tour Finals, Federer defeated Jo-Wilfried Tsonga for the third consecutive Sunday and, in doing so, claimed a record sixth ATP World Tour Finals title, finishing the year as world #3.[95]
+  </p>
+  <br>
+  <h3> Wimbledon runner-up, and Davis Cup glory</h3>
+  <p>
+    Federer began the season by changing rackets for the first time in his career, from his longtime frame of 90 square inches to one measured at 97 square inches. He had long been at a comparative disadvantage in equipment as almost the entire tour, including his top rivals Nadal and Djokovic, used more powerful frames of between 95 and 100 square inches.[110][115] At the Australian Open, Federer defeated Jo-Wilfried Tsonga and Andy Murray to reach his 11th consecutive semifinal in Melbourne, before losing to Rafael Nadal in straight sets.
+  At the Dubai Tennis Championships, he defeated Novak Djokovic in the semifinals, and then defeated Tomáš Berdych in the final to win his sixth Dubai crown and his first title since Halle in 2013.[116] Federer made the final at the Indian Wells Masters, but lost to Novak Djokovic in a final-set tiebreaker. At the Davis Cup quarterfinals, Federer won both of his singles rubbers against Kazakhstan, the second of which was the first live deciding rubber of his Davis Cup career. Federer then took a wild card into the Monte-Carlo Masters defeating Novak Djokovic on his way to the finals, but lost to compatriot Stan Wawrinka in a tight final.
+  In June, Federer announced that after the end of his third term, he would resign as President of the ATP Players Council, a position he had held since 2008.[117][118][119] At the Halle Open, Federer reached both the singles and the doubles finals and won his seventh Halle singles title, beating Alejandro Falla in the final. At Wimbledon, Federer reached a record ninth final, but he was defeated by Djokovic in an epic five-set match.
+    Federer made the final of the Canadian Open but was defeated by Jo-Wilfried Tsonga. Federer defeated Spain's David Ferrer in three sets to capture his sixth Cincinnati crown and 22nd ATP World Tour Masters 1000 title, his first in Cincinnati since 2012. He then reached the semifinals at the US Open but lost in straight sets to eventual champion Marin Čilić. At the Davis Cup semifinals, Federer won both his singles matches against Italy in straight sets and led Switzerland to the final for the first time since 1992.[120]
+  Federer then played in the Shanghai Masters. He beat Novak Djokovic in the semifinals, ending the Serb's 28-match unbeaten run on Chinese soil. He battled Frenchman Gilles Simon in his second Shanghai final, defeating him in two tiebreak sets and collected the 23rd Masters 1000 title of his career. The victory saw Federer return to world #2 for the first time since May 2013. Federer then played the Swiss Indoors in October, where he won a record sixth title and his 82nd ATP men's singles title overall. Federer also reached the finals of the 2014 ATP World Tour Finals to face Djokovic again, but withdrew from the final because of another back injury from his semifinal match against Stan Wawrinka.
+  Despite his injury, Federer finished the season on a high by defeating Richard Gasquet to clinch the Davis Cup for Switzerland for the first time in its history.[121] The final was held at the Stade Pierre-Mauroy in Lille, France attracting over 27,000 spectators per match; this broke attendance record for the highest ever officially-sanctioned competition tennis match.[122]
+  </p>
+
+
+  <!--YAHA SE END-->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+						<li><a href="http://localhost/sa/career.html">Careers and internships</a></li>
+							<li><a href="http://localhost/sa/sponser.html">Sponserships</a></li>
+							<li><a href="http://localhost/sa/team.html">team</a></li>
+							<li><a href="http://localhost/sa/contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+</body>
+</html>

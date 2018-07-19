@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sports Adda</title>
+<link rel="shortcut icon" type="image/png" href="pic.jpg"/>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/fwslider.css" media="all">
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fwslider.js"></script>
+<!--end slider --><script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+     <style>
+     h1{
+       font-size: 40px;
+       font-style: oblique;
+       font-family: monospace;
+       text-align: center;
+       text-decoration: underline;
+     }
+     h3{
+       font-size: 22px;
+       font-family: monospace;
+       text-decoration: underline;
+     }
+     h4{
+       font-size: 20px;
+       font-family: monospace;
+       text-decoration: underline;
+     }
+     p{
+       font-size: 16px;
+       font-family: monospace;
+     }
+     img{
+      height:300px;
+      width:300px;
+      border:1px;
+      display:block;
+      margin: auto;
+     }
+     body{
+       background-color: #A2B5CD;
+     }
+     </style>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+							<li><a href="http://localhost/sa/index.html">Home</a></li>
+						    	<li><a href="http://localhost/sa/news.php">News</a></li>
+						    	<li><a href="http://localhost/sa/fixtures.html">Fixtures</a></li>
+						    	<li><a href="http://localhost/sa/ranking.html">Ranking</a></li>
+						    	<li><a href="http://localhost/sa/players.html">Players</a></li>
+						    	<li><a href="http://localhost/sa/LiveScore.html">Live Scores</a></li>
+									<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+
+
+						  <div class="login_buttons">
+							 <div class="login_button"><a href="1.php">Login</a></div>
+							 <div class="clear"></div>
+						  </div>
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		           <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	</div>
+	<!-- YAHA SE SHURU-->
+
+  <h1>Rafael Nadal</h1>
+  <img src="images/Rafa_Nadal_(Spain).jpg">
+  <p>
+    Rafael "Rafa" Nadal Parera (Catalan: [rəfəˈɛɫ nəˈðaɫ pəˈɾeɾə], Spanish: [rafaˈel naˈðal paˈɾeɾa];[5] born 3 June 1986) is a Spanish professional tennis player, currently ranked world No. 1 in men's singles.[6] Known as "The King of Clay",[a] he is widely regarded as the greatest clay-court player in history.[b] His evolution into an all-court threat has established him as one of the greatest tennis players ever.[c][34][35][36][37][38]
+    Nadal has won 16 Grand Slam singles titles, the 2008 Olympic gold medal in singles, an all-time record of 30 ATP World Tour Masters 1000 titles, tied with Novak Djokovic,[39][40][41] and 19 ATP World Tour 500 tournaments. He was also a member of the winning Spain Davis Cup team in 2004, 2008, 2009, and 2011. In 2010, he became the seventh male player in history and youngest of five in the Open Era to achieve the Career Grand Slam at age 24. He is the second male player, after Andre Agassi, to complete the singles Career Golden Slam. In 2011, Nadal was named the Laureus World Sportsman of the Year.[42] The left-hander is the sixth player in the Open Era to reach more than 100 finals on the ATP World Tour.
+    Nadal and Mats Wilander are the only two male players who have won at least two Grand Slam titles on three different surfaces—hard court, grass, and clay.[43] At the 2014 French Open, he became the first male to win at least one Grand Slam tournament for ten consecutive years, breaking the record of eight consecutive years previously shared by Björn Borg, Pete Sampras, and Roger Federer. By winning the Monte-Carlo Masters in 2012, Nadal became the only male player in the open era to win a tournament eight consecutive times. Nadal is the only male player in tennis history to win one Grand Slam and at least one Masters 1000 title for ten consecutive years from 2005–2014. He surpassed Guillermo Vilas's Open Era record of 49 clay-court titles by winning the Monte-Carlo Masters in 2017. Nadal became the only man to win the same tournament 10 times by winning the Monte-Carlo Masters in 2017. He repeated this historic achievement by winning the Barcelona Open Banco Sabadell for a 10th time just a few weeks later. By winning the 2017 French Open, Nadal became the only male and second overall to win a single Grand Slam tournament 10 times after Margaret Court's 11 Australian Championships.[44]
+  </p>
+  <br>
+    <h3>Early Life</h3>
+    <p>
+      Rafael Nadal was born in Manacor, Balearic Islands, Spain. His father, Sebastián Nadal, is a businessman who owns an insurance company and a glass and window company, Vidres Mallorca, and manages his own restaurant, Sa Punta. His mother is Ana María Parera, a housewife. He has a younger sister named María Isabel. His uncle, Miguel Ángel Nadal, is a retired professional footballer, who played for RCD Mallorca, FC Barcelona, and the Spanish national team.[45] Nadal supports football clubs Real Madrid and RCD Mallorca.[46] Recognizing that Nadal had a natural talent for tennis, another uncle, Toni Nadal, a former professional tennis player, introduced him to tennis when he was three years old.[47]
+      At age eight, Nadal won an under-12 regional tennis championship at a time when he was also a promising football player.[48] This made Toni Nadal intensify training, and at that time he encouraged Nadal to play left-handed for a natural advantage on the tennis court, as he noticed Nadal played forehand shots with two hands.[48] This may be due to the fact he is ambidextrous, playing tennis with his left hand, and writing with his right.[49]
+      When Nadal was 12, he won the Spanish and European tennis titles in his age group and was playing tennis and football all the time.[48] Nadal's father made him choose between football and tennis so that his school work would not deteriorate entirely. Nadal said: "I chose tennis. Football had to stop straight away."[48]
+      When he was 14, the Spanish tennis federation requested that he leave Mallorca and move to Barcelona to continue his tennis training. Nadal's family turned down this request, partly because they feared it would hurt his education,[48] but also because Toni said that "I don't want to believe that you have to go to America, or other places to be a good athlete. You can do it from your home."[47] The decision to stay home meant that Nadal received less financial support from the federation; instead, Nadal's father covered the costs. In May 2001, he defeated former Grand Slam tournament champion Pat Cash in a clay-court exhibition match.[45]
+      Nadal turned professional at the age of 15,[50] and participated in two events on the ITF junior circuit. In 2002, at the age of 16, Nadal reached the semifinals of the Boys' Singles tournament at Wimbledon, in his first ITF junior event.[51] In the same year he helped Spain defeat the US in the final of the Junior Davis Cup in his second, and final, appearance on the ITF junior circuit.[51][52]
+      In 2003, he won the ATP Newcomer of the Year Award. By the age of 17, he beat Roger Federer the first time they played and became the youngest man to reach the third round at Wimbledon since Boris Becker. At 19, Nadal won the French Open the first time he played it, a feat not accomplished in Paris for more than 20 years. He eventually won it the first four times he played at Roland Garros.[50] Early in his career, Nadal became known for his habit of biting the trophies he won.[53]
+  </p>
+  <br>
+  <h3> Tennis career</h3>
+  <p>
+    On 29 April 2002, at 15 years and 10 months, the world No. 762 Nadal won his first ATP match, defeating Ramón Delgado,[54] and became the ninth player in the Open Era to do so before the age of 16.[55] The following year, Nadal won two Challenger titles and finished the year in the top 50. At his Wimbledon debut in 2003, Nadal became the youngest man to reach the third round since Boris Becker in 1984.[56]
+    Nadal reached the third round of the 2004 Australian Open where he lost in three sets against Australian Lleyton Hewitt. Interestingly, had he won, he would have faced Roger Federer in the next round.[57] Later that year, Nadal played his first match against world No. 1 Roger Federer at the 2004 Miami Masters, and won in straight sets, before losing to Fernando González in the fourth round. He was one of the six players who defeated Federer that year (along with Tim Henman, Albert Costa, Gustavo Kuerten, Dominik Hrbatý, and Tomáš Berdych). He missed most of the clay court season, including the French Open, because of a stress fracture in his left ankle.[45]
+    Nadal, at 18 years and six months, became the youngest player to register a singles victory in a Davis Cup final for a winning nation.[58] By beating world No. 2 Andy Roddick, he helped Spain clinch the 2004 title over the United States in a 3–2 win. He finished the year ranked world No. 51.
+  </p>
+  <p>
+    At the 2005 Australian Open, Nadal lost in the fourth round to eventual runner-up Lleyton Hewitt. Two months later, Nadal reached the final of the 2005 Miami Masters, and despite being two points from a straight-sets victory, he was defeated in five sets by world No. 1 Roger Federer. Both performances were considered to be breakthroughs for Nadal.[59][60]
+    He then dominated the spring clay court season. He won 24 consecutive singles matches, which broke Andre Agassi's Open Era record of consecutive match wins for a male teenager.[61] Nadal won the Torneo Conde de Godó in Barcelona and beat 2004 French Open runner-up Guillermo Coria in the finals of the 2005 Monte Carlo Masters and the 2005 Rome Masters. These victories raised his ranking to world No. 5[62] and made him one of the favorites at his career-first French Open. On his 19th birthday, Nadal defeated Federer in the 2005 French Open semifinals, being one of only four players who defeated the top-seeded player that year (along with Marat Safin, Richard Gasquet, and David Nalbandian). Two days later, he defeated Mariano Puerta in the final, becoming the second male player after Mats Wilander to win the French Open on his first attempt. He also became the first teenager to win a Grand Slam singles title since Pete Sampras won the 1990 US Open at age 19.[45] Winning the French Open improved Nadal's ranking to world No. 3.[62]
+    Three days after his victory in Paris, Nadal's 24-match winning streak was snapped in the first round of the grass court Gerry Weber Open in Halle, Germany, where he lost to the German Alexander Waske.[63] He then lost in the second round of 2005 Wimbledon to Gilles Müller of Luxembourg.
+    Immediately after Wimbledon, Nadal won 16 consecutive matches and three consecutive tournaments, bringing his ranking to world No. 2 on 25 July 2005.
+    Nadal started his North American summer hard-court season by defeating Agassi in the final of the 2005 Canada Masters, but lost in the first round of the 2005 Cincinnati Masters. Nadal was seeded second at the 2005 US Open, where he was upset in the third round by world No. 49 James Blake in four sets.
+    In September, he defeated Coria in the final of the China Open in Beijing and won both of his Davis Cup matches against Italy. In October, he won his fourth ATP Masters Series title of the year, defeating Ivan Ljubičić in the final of the 2005 Madrid Masters. He then suffered a foot injury that prevented him from competing in the year-ending Tennis Masters Cup.[64]
+    Both Nadal and Federer won eleven singles titles and four ATP Masters Series titles in 2005. Nadal broke Mats Wilander's previous teenage record of nine in 1983.[65] Nine of Nadal's titles were on clay, and the remainder were on hard courts. Nadal won 79 matches, second only to Federer's 81. Nadal won the Golden Bagel Award for 2005, with eleven 6–0 sets during the year.[66] Also, he earned the highest year-end ranking ever by a Spaniard and the ATP Most Improved Player of the Year award.
+  </p>
+  <p>
+    Nadal missed the Australian Open because of a foot injury.[67] In February, he lost in the semifinals of the first tournament he played, the Open 13 tournament in Marseille, France. Two weeks later, he handed Roger Federer his first loss of the year in the final of the Dubai Duty Free Men's Open (in 2006, Rafael Nadal and Andy Murray were the only two men who defeated Federer). To complete the spring hard-court season, Nadal was upset in the semifinals of the Pacific Life Open in Indian Wells, California, by James Blake, and was upset in the second round of the 2006 Miami Masters.
+    On European clay, Nadal won all four tournaments he entered and 24 consecutive matches. He defeated Federer in the final of the Masters Series Monte Carlo in four sets. The following week, he defeated Tommy Robredo in the final of the Open Sabadell Atlántico tournament in Barcelona. After a one-week break, Nadal won the Masters Series Internazionali BNL d'Italia in Rome, defeating Federer in a fifth-set tiebreaker in the final, after saving two match points and equaling Björn Borg's tally of 16 ATP titles won as a teenager. Nadal broke Argentinian Guillermo Vilas's 29-year male record of 53 consecutive clay-court match victories by winning his first round match at the French Open. Vilas presented Nadal with a trophy, but commented later that Nadal's feat was less impressive than his own because Nadal's winning streak covered two years and was accomplished by adding easy tournaments to his schedule.[68]
+    Nadal went on to play Federer in the final of the French Open. The first two sets of the match were hardly competitive, as the rivals traded 6–1 sets. Nadal won the third set easily
+  </p>
+  <br>
+  <h3> International career</h3>
+  <h4> Third French Open title</h4>
+  <p>
+    Nadal started the year by playing in six hard-court tournaments. He lost in the semifinals and first round of his first two tournaments and then lost in the quarterfinals of the Australian Open to eventual runner-up Fernando González. After another quarterfinal loss at the Dubai Tennis Championships, he won the 2007 Indian Wells Masters, before Novak Djoković defeated him in the quarterfinals of the 2007 Miami Masters.
+  He had comparatively more success after returning to Europe to play five clay-court tournaments. He won the titles at the Masters Series Monte Carlo, the Open Sabadell Atlántico in Barcelona, and the Masters Series Internazionali BNL d'Italia in Rome, before losing to Roger Federer in the final of the Masters Series Hamburg. This defeat ended his 81-match winning streak on clay, which is the male Open Era record for consecutive wins on a single surface. He then rebounded to win the French Open for the third straight year, defeating Federer once again in the final.
+  Between the tournaments in Barcelona and Rome, Nadal defeated Federer in the "Battle of Surfaces" exhibition match in Mallorca, Spain, with the tennis court being half grass and half clay.[71]
+  Nadal played the Artois Championships at the Queen's Club in London for the second consecutive year. As in 2006, Nadal was upset in the quarterfinals. Nadal then won consecutive five-set matches during the third and fourth rounds of Wimbledon before being beaten by Federer in the five-set final. This was Federer's first five-set match at Wimbledon since 2001.[72]
+  In July, Nadal won the clay court Mercedes Cup in Stuttgart, which proved to be his last title of the year. He played three important tournaments during the North American summer hard court season. He was a semifinalist at the Masters Series Rogers Cup in Montreal before losing his first match at the Western & Southern Financial Group Masters in Cincinnati. He was the second-seeded player at the US Open, but was defeated in the fourth round by David Ferrer.
+  After a month-long break from tournament tennis, Nadal played the Mutua Madrileña Masters in Madrid and the BNP Paribas Masters in Paris. David Nalbandian upset him in the quarterfinals and final of those tournaments. To end the year, Nadal won two of his three-round robin matches to advance to the semifinals of the Tennis Masters Cup in Shanghai, where Federer defeated him in straight sets.
+  During the second half of the year, Nadal battled a knee injury suffered during the Wimbledon final. In addition, there were rumors at the end of the year that the foot injury he suffered during 2005, caused long-term damage, which were given credence by coach Toni Nadal's claim that the problem was "serious". Nadal and his spokesman strongly denied this, however, with Nadal himself calling the story "totally false".[73]
+  </p>
+  <p>
+    Nadal began the year in India, where he was comprehensively beaten by Mikhail Youzhny in the final of the Chennai Open. Nadal then reached the semifinals of the Australian Open for the first time. Jo-Wilfried Tsonga defeated Nadal in the semifinal of 2008 Australian Open. Nadal also reached the final of the Miami Masters for the second time.
+    During the spring clay-court season, Nadal won four singles titles and defeated Roger Federer in three finals. He beat Federer at the Masters Series Monte Carlo for the third straight year, capturing his Open Era record fourth consecutive title there. He won in straight sets, despite Federer's holding a 4–0 lead in the second set.[74] Nadal then won his fourth consecutive title at the Open Sabadell Atlántico tournament in Barcelona. A few weeks later, Nadal won his first title at the Masters Series Hamburg, defeating Federer in the three-set final. He then won the French Open, becoming the fifth man in the Open Era to win a Grand Slam singles title without losing a set.[75] He defeated Federer in the final for the third straight year, but this was the most lopsided of all their matches, as Nadal only lost four games and gave Federer his first bagel since 1999.[74] This was Nadal's fourth consecutive French title, tying Björn Borg's all-time record. Nadal became the fourth male player during Open era to win the same Grand Slam singles tournament four consecutive years (the others being Borg, Pete Sampras, and Federer).
+    Nadal then played Federer in the final of Wimbledon for the third consecutive year, in the most anticipated match of their rivalry.[76][77] Nadal entered the final on a 23-match winning streak, including his first career grass-court title at the Artois Championships staged at the Queen's Club in London prior to Wimbledon. Federer had won his record fifth grass-court title at the Gerry Weber Open in Halle, and then reached the Wimbledon final without losing a set. Unlike their previous two Wimbledon finals, though, Federer was not the prohibitive favorite, and many analysts picked Nadal to win.[77][78] They played the longest (in terms of time on court, not in terms of numbers of games) final in Wimbledon history, and because of rain delays, Nadal won the fifth set 9–7 in near-darkness. The match was widely lauded as the greatest Wimbledon final ever, with some tennis critics even calling it the greatest match in tennis history.[79][80][81][82][83]
+    By winning his first Wimbledon title, Nadal became the third man in the open era to win both the French Open and Wimbledon in the same year, after Rod Laver in 1969, and Borg in 1978–1980, (Federer later accomplished this the following year) as well as the second Spaniard to win Wimbledon. He also ended Federer's record streak of five consecutive Wimbledon titles and 65 straight wins on grass courts. This was also the first time that Nadal won two Grand Slam tournaments back-to-back.
+    After Wimbledon, Nadal extended his winning streak to a career-best 32 matches. He won his second Rogers Cup title in Toronto, and then made it into the semifinals of the Western & Southern Financial Group Masters in Cincinnati. As a result, Nadal clinched the US Open Series and, combined with Federer's early-round losses in both of those tournaments, finally earned the world No. 1 ranking on 18 August, officially ending Federer's record four-and-a-half-year reign at the top.
+    At the 2008 Beijing Olympics, Nadal defeated Novak Djoković in the semifinals and Fernando González of Chile in the final to win his first Olympic gold medal. Nadal became the first male player ranked in the top five to win the gold medal.[84]
+    At the US Open, Nadal was the top-seeded player for the first time at a Grand Slam tournament. He did not lose a set during his first three matches, defeating qualifiers in the first and second rounds and Viktor Troicki in the third round. He then needed four sets to defeat both Sam Querrey in the fourth round and Mardy Fish in the quarterfinals. In the semifinals, he lost to eventual runner up, Andy Murray. Later in the year in Madrid, Nadal helped Spain defeat the United States in the Davis Cup semifinals.
+    At the Mutua Madrileña Masters in Madrid, Nadal lost in the semifinals to Gilles Simon. However, his performance at the event guaranteed that he would become the first Spaniard during the open era to finish the year as the world No. 1.[85] On 24 October at the Campoamor theatre in Oviedo, Spain, Nadal was given the Prince of Asturias Award for Sports, in recognition of his achievements in tennis.[86] Two weeks after the Madrid Masters at the BNP Paribas Masters in France, Nadal reached the quarterfinals, where he faced Nikolay Davydenko. Nadal lost the first set 6–1, before retiring in the second with a knee injury.[87] The following week, Nadal announced his withdrawal from the year-ending Tennis Masters Cup in Shanghai, citing tendinitis of the knee. On 10 November, Nadal withdrew from Spain's Davis Cup final against Argentina, as his knee injury had not healed completely.[88]
+  </p>
+  <h4> Australian Open title and loss at French Open</h4>
+  <p>
+    Nadal's first official ATP tour event for the year was the 250 series Qatar Open in Doha. After his first-round match with Fabrice Santoro, Nadal was awarded the 2008 ATP World Tour Champion trophy.[89] Nadal eventually lost in the quarterfinals to Gaël Monfils. Nadal also entered and won the tournament's doubles event with partner Marc López, defeating the world No. 1 doubles team of Daniel Nestor and Nenad Zimonjić in the final. As noted by statistician Greg Sharko, this was the first time since 1990 the world No. 1 singles player had played the world No. 1 doubles player in a final.[90]
+    At the 2009 Australian Open, Nadal won his first five matches without dropping a set, before defeating compatriot Fernando Verdasco in the semifinals in the second longest match in Australian Open history at 5 hours and 14 minutes.[91] This win set up a championship match with Roger Federer, their first meeting ever in a hard-court Grand Slam tournament and their nineteenth meeting overall. Nadal defeated Federer in five sets to earn his first hard-court Grand Slam singles title,[92] making him the first Spaniard to win the Australian Open and the fourth male tennis player—after Jimmy Connors, Mats Wilander, and Andre Agassi—to win Grand Slam singles titles on three different surfaces. This win also made Nadal the first male tennis player to hold three Grand Slam singles titles on three different surfaces at the same time.[93]
+  </p>
+  <p>
+    At the ABN AMRO World Tennis Tournament in Rotterdam, Nadal lost in the final to second-seeded Andy Murray in three sets. During the final, Nadal called a trainer to attend to a tendon problem with his right knee, which notably affected his play in the final set.[94] Although this knee problem was not associated with Nadal's right knee tendonitis, it was serious enough to cause him to withdraw from the Barclays Dubai Tennis Championships a week later.[95]
+    In March, Nadal helped Spain defeat Serbia in a Davis Cup World Group first-round tie on clay in Benidorm, Spain. Nadal defeated Janko Tipsarević and Novak Djokovic. The win over world No. 3 Djokovic was Nadal's twelfth consecutive Davis Cup singles match win and boosted his career win–loss record against Djokovic to 11–4, including 6–0 on clay.[96][97]
+    At the 2009 Indian Wells Masters, Nadal won his thirteenth Masters 1000 series tournament. In the fourth round, Nadal saved five match points, before defeating David Nalbandian for the first time.[98] Nadal defeated Juan Martín del Potro in the quarterfinals and Andy Roddick in the semifinals, before defeating Murray in the final. The next ATP tour event was the 2009 Miami Masters. Nadal advanced to the quarterfinals, where he again faced Argentinian del Potro, this time losing the match. This was the first time del Potro had defeated Nadal in five career matches.[99]
+    Nadal began his European clay court season at the 2009 Monte Carlo Masters, where he won a record fifth consecutive singles title there.[100] He defeated Novak Djokovic in the final for his fifth consecutive win, a record in the open era. Nadal is the first male player to win the same ATP Master series event for five consecutive years.
+    Nadal then competed in the ATP 500 event in Barcelona. He advanced to his fifth consecutive Barcelona final, where he faced David Ferrer. Nadal went on to beat Ferrer to record five consecutive Barcelona victories.[101] At the Rome Masters, Nadal reached the final, where he defeated Novak Djokovic to improve his overall record to 13–4 and clay record to 8–0 against the Serb.[102] He became the first player to win four Rome titles.
+  </p>
+  <br>
+  <h3> Return to No. 1 and Career Grand Slam</h3>
+  <p>
+    Nadal began the year by participating in the Capitala World Tennis Championship in Abu Dhabi, United Arab Emirates. He defeated compatriot David Ferrer to reach his second final in the exhibition tournament. In the final, Nadal defeated Robin Söderling in straight sets.[111]
+  Nadal participated in an Australian Open warm-up tournament, the Qatar ExxonMobil Open ATP 250 event in Doha, where he lost in the finals to Nikolay Davydenko.[112][112]
+  In the Australian Open, Nadal defeated Peter Luczak, Lukáš Lacko, Philipp Kohlschreiber, and Ivo Karlović.[113] In the quarterfinals, Nadal pulled out at 3–0 down in the third set against Andy Murray, having lost the first two sets.[114] After examining Nadal's knees, doctors told him that he should take two weeks of rest, and then two weeks of rehabilitation.
+  Nadal reached the semifinals in singles at the BNP Paribas Open in Indian Wells, where he was the defending champion; however, eventual champion Ivan Ljubičić defeated him in three sets.[115] He and countryman López won the doubles title, though, as wildcard entrants against number one seeds Daniel Nestor and Nenad Zimonjić.[116] This boosted his doubles ranking 175 places[117] to world number 66, whereas he was 241st before Indian Wells.[118] After Indian Wells, Nadal reached the semifinals of the Sony Ericsson Open, where he lost to eventual champion Andy Roddick in three sets.[119]
+  Nadal reached the final of the Monte-Carlo Rolex Masters in Monaco, after beating fellow Spaniard David Ferrer in the semifinals. This was Nadal's first tour final since Doha earlier in the year. He won the final in straight sets over his compatriot Fernando Verdasco. He lost 14 games throughout all five matches, the fewest he had ever lost en route to a championship, and the final was the shortest Masters 1000 final in terms of games. With this win, Nadal became the first player in the open era to win a tournament title for six straight years.[120]
+  Unlike in previous years, Nadal next chose to skip the Barcelona tournament (despite being that event's five-time defending champion), and his next tournament was the 2010 Internazionali BNL d'Italia. He defeated Philipp Kohlschreiber, Victor Hănescu, and Stanlias Wawrinka, all in straight sets, to win his 57th straight match in April. In the semifinals, he faced a resilient Ernests Gulbis, who defeated Roger Federer earlier in the tournament and took Nadal to three sets for the first time this clay-court season. Nadal eventually prevailed in 2 hours and 40minutes. He then defeated compatriot David Ferrer in the final for his fifth title at Rome to equal Andre Agassi's record of winning 17 ATP Masters titles.
+  </p>
+
+
+
+	<!--YAHA SE END-->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+						<li><a href="http://localhost/sa/career.html">Careers and internships</a></li>
+							<li><a href="http://localhost/sa/sponser.html">Sponserships</a></li>
+							<li><a href="http://localhost/sa/team.html">team</a></li>
+							<li><a href="http://localhost/sa/contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+				
+				</div>
+
+			</div>
+		</div>
+</body>
+</html>

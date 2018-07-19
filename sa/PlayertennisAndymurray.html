@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sports Adda</title>
+<link rel="shortcut icon" type="image/png" href="pic.jpg"/>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/fwslider.css" media="all">
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fwslider.js"></script>
+<!--end slider --><script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+     <style>
+     h1{
+       font-size: 40px;
+       font-style: oblique;
+       font-family: monospace;
+       text-align: center;
+       text-decoration: underline;
+     }
+     h3{
+       font-size: 22px;
+       font-family: monospace;
+       text-decoration: underline;
+     }
+     h4{
+       font-size: 20px;
+       font-family: monospace;
+       text-decoration: underline;
+     }
+     p{
+       font-size: 16px;
+       font-family: monospace;
+     }
+     img{
+      height:300px;
+      width:300px;
+      border:1px;
+      display:block;
+      margin: auto;
+     }
+     body{
+       background-color: #A2B5CD;
+     }
+     </style>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+							<li><a href="http://localhost/sa/index.html">Home</a></li>
+						    	<li><a href="http://localhost/sa/news.php">News</a></li>
+						    	<li><a href="http://localhost/sa/fixtures.html">Fixtures</a></li>
+						    	<li><a href="http://localhost/sa/ranking.html">Ranking</a></li>
+						    	<li><a href="http://localhost/sa/players.html">Players</a></li>
+						    	<li><a href="http://localhost/sa/LiveScore.html">Live Scores</a></li>
+									<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+
+
+						  <div class="login_buttons">
+							 <div class="login_button"><a href="1.php">Login</a></div>
+							 <div class="clear"></div>
+						  </div>
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		           <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	</div>
+	<!-- YAHA SE SHURU-->
+
+  <h1>Andy Murray</h1>
+  <img src="images/330px-Erste_Bank_Open_ATP_World_Tour_500_Vienna_2016-5.jpg">
+  <p>
+    Sir Andrew Barron Murray, OBE (born 15 May 1987) is a British professional tennis player from Scotland currently ranked world no. 3 in men's singles.[6] Murray represents Great Britain in his sporting activities and is a three-time Grand Slam tournament winner, two-time Olympic champion, Davis Cup champion and the winner of the 2016 ATP World Tour Finals.
+    Murray defeated Novak Djokovic in the 2012 US Open final, becoming the first British player since 1977, and the first British man since 1936, to win a Grand Slam singles tournament. Murray is also the first British man to win more than one Wimbledon singles title since Fred Perry in 1935.[10]
+    Murray is the men's singles 2012 and 2016 Olympic gold medallist, making him the only tennis player, male or female, to have won two Olympic singles titles. He featured in Great Britain's Davis Cup-winning team in 2015, going 11–0 in his matches (8 singles and 3 doubles) as they secured their first Davis Cup title since 1936.[11]
+  </p>
+  <br>
+    <h3>Early Life</h3>
+    <p>
+      Andy Murray was born in Glasgow, Scotland, the son of Judy Murray (née Erskine) and William Murray.[3] His maternal grandfather, Roy Erskine, was a professional footballer in the late 1950s.[12] Murray is a supporter of Hibernian Football Club, the team his grandfather represented.[13]
+      Murray's elder brother, Jamie, is also a professional tennis player, playing on the doubles circuit. Murray was born with a bipartite patella, where the kneecap remains as two separate bones instead of fusing together in early childhood,[14] but was not diagnosed until the age of 16. He has been seen holding his knee due to the pain caused by the condition and has pulled out of events because of it.[15] Murray began playing tennis at the age of three when his mother Judy took him to play on the local courts.[16] He played in his first competitive tournament at age five and by the time he was eight he was competing with adults in the Central District Tennis League.[17]
+      Murray grew up in Dunblane and attended Dunblane Primary School. He and his brother were present during the 1996 Dunblane school massacre,[18] when Thomas Hamilton killed 16 children and a teacher before shooting himself; Murray took cover in a classroom.[19] Murray says he was too young to understand what was happening and is reluctant to talk about it in interviews, but in his autobiography Hitting Back he states that he attended a youth group run by Hamilton, and that his mother gave Hamilton lifts in her car.[20] Murray later attended Dunblane High School.[21][22]
+      Murray's parents split up when he was 10.[23] He believes the impact this had on him could be the reason behind his competitive spirit.[24] At 15, he was asked to train with Rangers Football Club at their School of Excellence, but declined, opting to focus on his tennis career instead.[25] He then decided to move to Barcelona, Spain. There he studied at the Schiller International School and trained on the clay courts of the Sánchez-Casal Academy, coached by Pato Alvarez.[26] Murray described this time as "a big sacrifice".[22] His parents had to find £40,000 to pay for his 18-month stay there.[23] While in Spain, he trained with Emilio Sánchez, formerly the world No. 1 doubles player.[22]
+      In February 2013, Murray bought Cromlix House for £1.8 million which opened as a 15-room five-star hotel in April 2014.[27] Later that month Murray was awarded freedom of Stirling and received an Honorary Doctorate from the University of Stirling in recognition of his services to tennis.[28]
+      Murray began dating Kim Sears, daughter of player-turned-coach Nigel Sears, in 2005.[29][30] Their engagement was announced in November 2014,[30] and they married on 11 April 2015 at Dunblane Cathedral in his home town.[31] The couple have a daughter, born on 7 February 2016.[32][33] He identifies himself as a feminist.[34]
+  </p>
+  <br>
+  <h3> Youth And dometic career</h3>
+  <p>
+    Leon Smith, Murray's tennis coach from 11 to 17,[26] described Murray as "unbelievably competitive", while Murray attributes his abilities to the motivation gained from losing to his older brother Jamie. In 1999, at the age of 12, Murray won his age group at the Orange Bowl, a prestigious event for junior players.[35] He won it again at the age of 14, and is one of only nine tennis players to win the Junior Orange Bowl championship twice in its 70-year history, alongside the likes of Jimmy Connors, Jennifer Capriati, Monica Seles, and Yishai Oliel.[36]
+    In July 2003, Murray started out on the Challenger and Futures circuit. In his first tournament, he reached the quarterfinals of the Manchester Challenger.[37] In September, Murray won his first senior title by taking the Glasgow Futures event.[38] He also reached the semifinals of the Edinburgh Futures event.[39]
+    For the first six months of 2004, Murray had a knee injury and couldn't play.[40]
+    In July 2004, Murray played a Challenger event in Nottingham, where he lost to future Grand Slam finalist Jo-Wilfried Tsonga in the second round.[41] Murray then went on to win Futures events in Xàtiva[42] and Rome.[43]
+    In September 2004, he won the Junior US Open and was selected for the Davis Cup World Group play-off match against Austria later that month;[44] however, he was not selected to play. Later that year, he won BBC Young Sports Personality of the Year.[45]
+    As a junior, Murray reached as high as No. 6 in the world in 2003 (and No. 8 in doubles). In the 2004-instated combined rankings, Murray reached No. 2 in the world.[46]
+  </p>
+  <p>
+    Murray began 2005 ranked world No. 407,[47] but when he was in South America in January, he hurt his back and had to take three months off.[40]
+    In March, he became the youngest Briton to play in the Davis Cup.[48] Murray turned professional in April and was given a wild card entry to a clay-court tournament in Barcelona, the Open SEAT, where he lost in three sets to Jan Hernych.[49] In April, Murray parted acrimoniously from his coach Pato Alvarez, complaining about his negative attitude.[50] Murray then reached the semifinals of the boys' French Open, where he lost in straight sets to Marin Čilić.[51]
+    Mark Petchey agreed to coach Murray for four weeks until the end of Wimbledon, but it metamorphosed into a full-time position.[50] Given a wild card to Queen's,[52] Murray progressed past Santiago Ventura in straight sets for his first ATP match win.[53] Following a second-round win against Taylor Dent,[54] he played former Australian Open champion Thomas Johansson in the third round, losing in three sets after cramping and twisting his ankle.[55][56] Following his performance at Queen's, Murray received a wild card for Wimbledon. Ranked No. 312, Murray became the first Scot in the Open Era to reach the third round of the men's singles tournament at Wimbledon.[57] In the third round, Murray lost to 2002 Wimbledon finalist David Nalbandian due to cramping and fatigue, having led two sets to love.[58]
+    Following Wimbledon, Murray won Challenger events on the hard courts of Aptos and Binghamton, New York. He then experienced his first Masters event at Cincinnati, where he beat Taylor Dent, before losing in three sets to then world No. 4, Marat Safin. With a wild card entry, Murray played Andrei Pavel in the opening round of the US Open, where he recovered from down two sets to one to win his first five-set match.[59] However, he lost in the second round to Arnaud Clément in another five-set contest.[60] Murray was again selected for the Davis Cup match against Switzerland. He was picked for the opening singles rubbers, losing in straight sets to Stanislas Wawrinka.[61] Murray made his first ATP final at the Thailand Open where he faced world No. 1 Roger Federer. Murray lost in straight sets.[62]
+    Murray beat Tim Henman in their first meeting, at the Basel Swiss Indoors in the first round, and eventually reached the quarterfinals.[63]
+    In November, Murray captained Scotland at the inaugural Aberdeen Cup against England led by Greg Rusedski.[64] This was an exhibition tournament and the only event where Murray played Rusedski, they never met on the Tour. Rusedski beat Murray in the first match, but Murray won the second. This was also the first time that Andy and his brother Jamie Murray played doubles as seniors.[65] Scotland defeated England 4½ – 2½.[66] He completed the year ranked No. 64 and was named the 2005 BBC Scotland Sports Personality of the Year.[67]
+  </p>
+  <p>
+    The 2006 season saw Murray compete on the full circuit for the first time and split with his coach Mark Petchey[68] and team up with Brad Gilbert.[69]
+    On 27 February, Murray became the British No. 1, ending Tim Henman's seven-year run. Murray was now world No. 42, Greg Rusedski No. 43, and Tim Henman No. 49.[70] Rusedski regained his British No. 1 status on 15 May[71] for eight weeks,[72] after which Murray became No. 1 again on 10 July.
+    Murray suffered a straight sets defeat at the Australian Open, to Argentine Juan Ignacio Chela in the first round[73] and to Gaël Monfils at the French Open, in five sets.[74] Murray did reach the fourth round for the first time at both Wimbledon (beating 3rd seed Andy Roddick in the 3rd round) and the US Open.[75][76]
+    Murray played in Davis Cup ties against Serbia, Israel and Ukraine. Murray missed the opening singles matches before losing the doubles as Britain lost their tie against Serbia.[77] During the tie with Israel, Murray won his rubber and lost the doubles before pulling out with a neck injury before the reverse singles, as Britain lost the tie.[78][79][80] Against Ukraine, Murray won both his singles rubbers, but lost the doubles, as Britain won the tie.[81][82][83]
+    At the Masters, Murray lost in the first round in Miami,[84] Monte Carlo and Rome.[85][86] Murray went out of the tournaments in Indian Wells and Hamburg in the second round.[87][88] Murray reached his first Masters semifinal in Toronto at the Rogers Cup, losing to Richard Gasquet.[89]
+    At Cincinnati, Murray became only one of two players, alongside Rafael Nadal, to defeat Roger Federer in 2006, breaking the Swiss star's 55 match winning streak on hard courts.[90] He lost two rounds later to Andy Roddick, but broke into the top 20 for the first time.[91][92] In the final two Masters events in Madrid and Paris, Murray exited both tournaments at the last-16 stage ending his season, with losses to Novak Djokovic and Dominik Hrbatý.[93][94] When the tour reached San Jose, California; Murray defeated a top ten player for the first time, Andy Roddick.[95] Murray went on to claim the SAP Open title defeating world No. 11 Lleyton Hewitt.[96] Murray was a finalist at the Legg Mason Tennis Classic.[97] Playing doubles with his brother in Bangkok the pair reached the final.[98] After the French Open, where Murray was injured again, he revealed that his bones hadn't fully grown, causing him to suffer from cramps and back problems.[99]
+    In November, the Aberdeen Cup was held for the second time, with Murray leading the Scotland team and Greg Rusedski captaining England.[100] Scotland won 6½ – 1.[101]
+  </p>
+  <br>
+  <h3> International career</h3>
+  <h4> First Major final</h4>
+  <p>
+    In 2008, Murray suffered a first round loss at the Australian Open to eventual runner-up Jo-Wilfried Tsonga, and a third round loss at the French Open to Nicolás Almagro.[109] Murray then made his first Grand Slam quarterfinal at Wimbledon before making his first final at the US Open. During the tournament in New York, Murray claimed his first win over Nadal. That victory meant that he'd become the first player from Britain since Greg Rusedski in 1997 to reach a major final.[110] In his first Grand Slam final Murray suffered a straight sets loss to Federer.[111][112] At the Beijing Olympics, Murray suffered one of the worst defeats of his career, losing his first round singles match to world No. 77 Yen-hsun Lu of Taiwan in straight sets. That abject defeat was still on his mind in a BBC interview five years later – despite an intervening Olympic gold medal and a head-to-head win – when he met the same player (now ranked 75 in the world) in the 2nd round of Wimbledon 2013.[113]
+    In the Masters tournaments Murray went out in round four in Indian Wells and the first round of Miami. In the clay Masters Murray made the third round of Monte Carlo and Hamburg and the second of Rome. On the American hard court swing Murray made the semifinals of Toronto before winning his first Masters shield in Cincinnati. He added another shield to his collection in Madrid;[114] before losing in the quarterfinals of Paris. Now at No. 4 in the world, Murray qualified for the first time for the Masters Cup. He played well in defeating an injured Federer[115] but lost to Davydenko in the semifinals.[116] Murray ended 2008 ranked fourth in the world. Murray also won tournaments in Doha, Marseille and St Petersburg.
+  </p>
+  <p>
+    In the lead-up to the French Open, Murray beat world No. 9, Nikolay Davydenko at the Monte Carlo Masters, the first time he had beaten a top ten player on clay,[122] though he lost to Nadal in the semifinals. Murray was upset in round two of the Rome Masters by qualifier Juan Mónaco, and he reached the quarterfinals of the Madrid Masters, losing to Juan Martín del Potro. During this time Murray achieved the highest ever ranking of a British male in the Open Era when he became world No. 3 on 11 May 2009.[123] Murray reached the quarterfinals of the French Open, but was defeated by Fernando González in four sets.
+    Murray won for the first time on grass at Queen's and became the first British winner of the tournament since 1938. In the final Murray defeated American James Blake.[124] At Wimbledon, against Stanislas Wawrinka, Murray's fourth round match was the first match to be played entirely under Wimbledon's retractable roof, also enabling it to be the latest finishing match ever at Wimbledon.[125] However Murray lost a tight semifinal to Andy Roddick.
+    Murray returned to action in Montreal, defeating del Potro in three sets to take the title.[126] After this victory, he overtook Nadal in the rankings and held the number two position until the start of the US Open.[127] Murray followed the Masters win playing at the Cincinnati Masters, where he lost to Federer. At the US Open, Murray was hampered by a wrist injury and suffered a straight-sets loss to Čilić.[128] Murray won both his singles matches, and lost at doubles in the Davis Cup against Poland,[129] but was then forced to miss six weeks with a wrist injury.[130]
+    In November, Murray won at Valencia,[130][131] but bowed out in round two of the Paris Masters. To end the season, Murray did not make it out of the round robin at the World Tour Finals in London.[132]
+  </p>
+  <h4> Two Masters titles</h4>
+  <p>
+  Murray and Laura Robson lost in the round-robin stage 2011 Hopman Cup, losing all three ties even though Murray won all of his singles matches. Then Murray, along with other stars such as Federer, Nadal, and Djokovic, participated in the Rally for Relief event to help raise money for the flood victims in Queensland.[154]
+  Seeded fifth in the 2011 Australian Open, Murray met former champion Novak Djokovic in the final and was defeated in straight sets. In Rotterdam, he was defeated by Marcos Baghdatis in the first round.[155] Murray reached the semifinals of the doubles tournament with his brother Jamie. Murray lost to qualifiers in the first rounds at the Masters Series events in Indian Wells and Miami, after which he split with coach Àlex Corretja.[156]
+  Murray returned to form at the Monte-Carlo Rolex Masters, but lost to Nadal in the semifinals.[157] Murray sustained an elbow injury before the match and subsequently withdrew from the 2011 Barcelona Open Banco Sabadell due to the injury.[158] Murray lost in the third round at the Mutua Madrileña Madrid Open, but made it to the semifinals of the Rome Masters, where he lost to Novak Djokovic.[159]
+  At the French Open, Murray won two tough early matches, before losing in his first semifinal at Roland Garros, against Rafael Nadal.[160][161][162]
+  Murray defeated Jo-Wilfried Tsonga to win his second Queen's Club title.[163] At Wimbledon, Murray lost in the semifinal to Nadal, despite taking the first set.[164] At the Davis Cup tie between Great Britain and Luxembourg, Murray led the British team to victory.[165] Murray was the two-time defending 2011 Rogers Cup champion, but lost in the second round to South African Kevin Anderson.[166] However, the following week, he won the 2011 Western & Southern Open after Novak Djokovic retired due to injury.[167] At the 2011 US Open, Murray battled from two sets down to win a five-set second-round encounter with Robin Haase, but lost in the semifinals to Rafael Nadal in four sets.[citation needed]
+  Murray easily won the small 250-class Thailand Open, and the following week he won his third title in four tournaments at the Rakuten Japan Open Tennis Championships. His opponent in the final was Rafael Nadal, whom he beat for the first time in the year in three sets. Murray then won the doubles with his brother Jamie Murray, becoming the first person in the 2011 season to capture both singles and doubles titles at the same tournament. Murray then successfully defended his Shanghai Masters crown with a straight-sets victory over David Ferrer in the final. At the ATP World Tour Finals, Murray lost to David Ferrer in straight sets and withdrew from the tournament after the loss with a groin pull. Murray ended the year as No. 4 in the world behind Djokovic, Nadal, and Federer.
+  </p>
+  <p>
+    With Ivan Lendl as his new full-time coach,[168] Murray began the season by playing in the 2012 Brisbane International. He overcame a slow start in his first two matches to win his 22nd title by beating Alexandr Dolgopolov in the final.[169] In doubles, he lost in the quarterfinals against second seeds Jürgen Melzer and Philipp Petzschner in a tight match.[170] After an exhibition tournament,[171] Murray made it to the semifinals of the 2012 Australian Open, where he was defeated by Djokovic in a four-hour-and 50-minute match.[172]
+    At the Dubai Duty Free Tennis Championships, Murray defeated Djokovic in the semifinals, but lost in the final to Roger Federer.[173] After an early defeat at the BNP Paribas Open, Murray made the finals of the Miami Masters, losing to Djokovic.[174] Murray then had quarterfinal losses at the Monte Carlo Masters and Barcelona Open, and a third round loss at the Italian Open.[174] Murray battled back spasms all through the French Open, and in the quarterfinals he was beaten by David Ferrer.[175]
+    Murray lost in the opening round of the Queen's Club Championships to world No. 65 Nicolas Mahut.[176] At Wimbledon, Murray set the record for the latest finish at the championships when he completed a four-set victory over Marcos Baghdatis at 23:02 BST.[177] Murray beat Jo-Wilfried Tsonga in the semifinal in four sets to become the first male British player to reach the final of Wimbledon since Bunny Austin in 1938.[178] In the final, he faced Federer, but after taking the first set, he lost the match in four sets.[179]
+    Murray next competed at the London 2012 Summer Olympics in singles, doubles, and mixed doubles. He partnered his brother Jamie Murray in doubles and suffered a first-round exit to Austria (Jürgen Melzer and Alexander Peya) in three sets.[180] In the mixed doubles, Murray was partnered by Laura Robson. They made it all the way to the finals where they lost to the Belarusian top seeds (Victoria Azarenka and Max Mirnyi) in three sets, settling for the silver medal. In singles, Murray lost only one set on his way to the finals where he met Federer, defeating him in straight sets, for the loss of just 7 games.[174] By winning the Olympic gold medal, Murray became the first British man to win the Olympic singles gold medal in tennis since Josiah Ritchie in 1908, and only the 7th man in the open era to win two medals at the same Olympic Games.[181] Murray retired early in the Rogers Cup due to a knee injury, and was beaten by unseeded Jérémy Chardy at the Cincinnati Masters in straight sets.
+    He next competed in the final major of the season at the US Open. He cruised through his opening two rounds in straight sets against Alex Bogomolov and Ivan Dodig, before facing a tough four-set battle with Feliciano López, where Murray had to win three tie-breakers. In the fourth round, he defeated the Canadian Milos Raonic in straight sets, and then in the quarterfinals, had to come from a set and two breaks down against Marin Čilić to prevail in four. In the semifinals, he defeated Tomáš Berdych in a long-fought match that lasted almost four hours, to reach his second consecutive Grand Slam final. Murray defeated Djokovic in five sets, becoming the first British man to win a Grand Slam final since Fred Perry in 1936,[182] and the first Scottish-born player to win a Grand Slam final since Harold Mahony in 1896.[183] The win would also set several records for Murray: it involved the longest tiebreak in US Open final history at 12–10 in the first set, it made Murray the first man ever to win an Olympic gold medal and the US Open in the same year, and it tied with the 1988 US Open final (in which Murray's coach Lendl competed) as the longest final in the tournament's history.[184] By defeating Djokovic in the final, Murray achieved his 100th Grand Slam match win of his career. The victory made Murray part of the "Big Four" according to many pundits, including Novak Djokovic.[185][186]
+    In his first tournament after the US Open, Murray reached the semifinals of the Rakuten Japan Open after entering as defending champion. He was beaten by Milos Raonic in a close three-set match. He was defending champion in the doubles with his brother Jamie. However, they were knocked out in the quarterfinals by top seeds Leander Paes and Radek Štěpánek. At the penultimate Masters 1000 tournament of the year in Shanghai, after receiving a bye into round two, Murray's first match was due to be played against Florian Mayer. However, Mayer had to pull out due to injury, giving Murray a walkover into round three. After beating Alexandr Dolgopolov in the third round, he then overcame Radek Štěpánek in a three-set quarterfinal. Murray next faced Roger Federer in the semifinals, whom he defeated in straight sets to set up a second consecutive final against Djokovic, and his third consecutive Shanghai final. After failing to capitalise on five match points, Murray eventually lost in three sets, bringing to an end his 12–0 winning streak at the competition.[187][188] When Nadal pulled out of both the Paris Masters and the Year-End Championships,[189] Murray finished the year at No. 3 in the world, after four years at No. 4. This was the first time Murray had finished the year higher than No. 4 in the world. At the BBC Sports Personality of the Year Murray found himself voted third overall, ahead of Mo Farah.[190] Murray won the World Breakthrough of the Year at the Laureus World Sports Awards.[191]
+    Murray was appointed Officer of the Order of the British Empire (OBE) in the 2013 New Year Honours for services to tennis.[192][193][194]
+  </p>
+  <br>
+  <h3> Wimbledon champion and surgery</h3>
+  <p>
+    Murray began his 2013 season by retaining his Brisbane International title, defeating Grigor Dimitrov in the final in straight sets.[195] Trying to win his second Major in a row, he began the 2013 Australian Open well with a straight sets victory over Dutchman Robin Haase. He followed this up with straight set victories over João Sousa, practice partner Ričardas Berankis and French No. 14 seed Gilles Simon. In the quarterfinals he cruised past Jérémy Chardy in straight sets to set up a semifinal clash with Roger Federer. After exchanging sets, Murray eventually prevailed in 5 sets, recording his first Grand Slam tournament triumph over Federer. With this victory, each member of the ATP's most dominant quartet of the previous four years (Federer, Nadal, Djokovic and Murray) had beaten the other three at the Majors.[196] This victory set up Murray's third consecutive Major final appearance, and second in a row against Djokovic. After taking the first set in a tiebreak, Murray was eventually defeated in four sets.[197] His defeat in this final meant that Murray became only the second man in the Open Era to achieve three runner-up finishes at the Australian Open, the other being Stefan Edberg.
+  At the BNP Paribas Open in Indian Wells, Murray lost at the quarterfinal stage to Juan Martín del Potro in three sets.[198] At the Miami Masters, Murray made it through his first four matches without dropping a set, and after overcoming Richard Gasquet in the semifinals, faced David Ferrer in the final. After losing the first set, and facing match point in the decider at 5–6, Murray eventually took the match in a third set tiebreaker to win his second Miami Masters title, and leapfrog Roger Federer into second place in the rankings, ending a near-decade long time period in which neither Federer or Rafael Nadal were ranked in the top two.[199] Murray briefly fell back to No. 3 in the world, following a third round defeat by Stanislas Wawrinka in Monte-Carlo, but reclaimed the No. 2 ranking as a result of Federer failing to defend his title at the Mutua Madrid Open. Later, Murray lost at the quarterfinal stage to Tomáš Berdych in straight sets.[200]
+  At the Rome Masters, Murray retired due to a hip injury during his second round match against Marcel Granollers on his 26th birthday. Murray had just battled back to tie the match at one set all after winning the second set on a tiebreak. This left Murray with only eleven days to be fit for the start of the French Open.[201]
+  Speaking at a press conference after the match, Murray said, "As it is, I'd be very surprised if I was playing in Paris. I need to make a plan as to what I do. I'll chat with the guys tonight and make a plan for the next few days then make a decision on Paris after the next five days."[202] He would go on to withdraw from Roland Garros later, citing a back injury.[203] After a four-week break due to injury, Murray made his comeback at the 2013 Aegon Championships, where he was the top seed. After a rain delayed first day, Murray had to complete his second round match against Nicolas Mahut, and his subsequent match against Marinko Matosevic on the same day, both of which he won in straight sets. After beating Benjamin Becker in the quarterfinals, Murray next faced his first top ten opponent since losing to Tomáš Berdych in Madrid, taking on Jo-Wilfried Tsonga in the semifinals. After dropping the first set against the Frenchman, Murray eventually raised his level and won in three to set up a final against Marin Čilić of Croatia, his third consecutive final on grass courts. He came from behind again to beat Čilić in three sets to claim his third title at Queen's Club.[204]
+  Going into Wimbledon, Murray had not lost a match on grass since the previous year's final, and was on a winning streak of 11 matches on grass. In the first two rounds, Murray faced Benjamin Becker[205] and Yen-hsun Lu[206] respectively, defeating both in straight sets. His third round match was against 32nd seed Tommy Robredo, and despite a tour comeback over the past year, Murray overcame the Spaniard in straight sets to set up a clash with Mikhail Youzhny, the highest seed left in Murray's half following the unexpectedly early exits of Roger Federer and Rafael Nadal.[207] Despite facing a fightback in the second set, Murray won in straight sets to make it through to his tenth consecutive Grand Slam quarterfinal,[208] in which he was to play Fernando Verdasco, the first left-handed player Murray had faced since the 2012 US Open. For the seventh time in his career, Murray had to come back from a deficit of two sets to ultimately come through in five,[209] setting up a semifinal clash with 24th seed Jerzy Janowicz, the Polish player who beat Murray in their previous encounter. After Murray failed to break Janowicz's serve, the Pole took the opening set in the tiebreak, following a double fault from Murray. However Murray managed to up his level of play, and won the next three sets, making it through to his second consecutive Wimbledon final, and third consecutive major final against Novak Djokovic.[210]
+  Despite the Serb being the favourite to win the title throughout the Championships, Murray overcame Djokovic in a straight sets match that lasted over three hours, to become the first British winner of the men's singles title since Fred Perry in 1936, the first Scot of either sex to win a Wimbledon singles title since Harold Mahony in 1896, and to extend his winning streak on grass to 18 matches.[211] With the win, he also became only the second man in the open era after Rafael Nadal to hold the Olympic singles gold medal and Wimbledon title simultaneously.[citation needed]
+  At the US Open, Murray entered a Grand Slam tournament as defending champion for the first time, and started strongly with a straight sets win against Michaël Llodra. He backed this up with wins over Leonardo Mayer, Florian Mayer and Denis Istomin to reach the quarterfinals at a major for the 11th straight tournament. In the last 8, Murray faced Stanislas Wawrinka of Switzerland, but lost in straight sets, ending Murray's streak of four consecutive major finals.[212] Following his disappointing run of form on hard courts, Murray next joined the Great Britain Davis Cup team in their World Group Play-off tie on clay against Croatia, where he played in two singles and the doubles rubbers. After defeating 16-year-old Borna Ćorić in straight sets, Murray teamed up with Colin Fleming to defeat Croatian number 1 Ivan Dodig and Mate Pavić in the doubles, and take a 2–1 lead in the tie. Murray then sealed Britain's return to the World Group by defeating Dodig in straight sets.[citation needed]
+  Following the Davis Cup, Murray's season was cut short by his decision to undergo surgery, in order to sort out the lower back problems that had caused him problems since the early stages of the previous season. After being forced to withdraw from the French Open in May, the injury flared up again during the US Open and later during the Davis Cup World Group Play-offs, Murray made the decision that surgery was the best way to sort the problem out for the long-term.[213] Following the conclusion of the 2013 season, Murray was voted the 2013 BBC Sport Personality of the Year, after having been heavy favourite since the nominees were announced.[214]
+  </p>
+
+
+
+	<!--YAHA SE END-->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+						<li><a href="http://localhost/sa/career.html">Careers and internships</a></li>
+							<li><a href="http://localhost/sa/sponser.html">Sponserships</a></li>
+							<li><a href="http://localhost/sa/team.html">team</a></li>
+							<li><a href="http://localhost/sa/contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+				
+				</div>
+
+			</div>
+		</div>
+</body>
+</html>
